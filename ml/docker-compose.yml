@@ -1,0 +1,29 @@
+version: "3.9"
+
+# ── ML Service — standalone ───────────────────────────────────────────────────
+# Run: docker compose up --build
+# Requires: .env (copy from .env.example)
+#
+# This service is STATELESS — no database, no queue.
+# It exposes an HTTP API. The backend calls it with an S3 key;
+# this service downloads the file, processes it, and returns JSON.
+
+services:
+  ml:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./src:/app/src      # live-reload during development
+      - ml_tmp:/tmp/ml_uploads
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:9000/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  ml_tmp:

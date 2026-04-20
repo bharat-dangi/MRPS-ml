@@ -1,0 +1,45 @@
+# ── HTTP server ───────────────────────────────────────────────────────────────
+fastapi==0.128.8
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# ── Database (ML reads S3 keys & writes results to shared Postgres) ────────────
+sqlalchemy==2.0.41
+psycopg2-binary==2.9.10
+pgvector==0.3.6
+
+# ── Cloud storage ─────────────────────────────────────────────────────────────
+boto3==1.35.71                # AWS S3
+cloudinary==1.42.2            # Cloudinary (alternative — toggle via USE_CLOUDINARY=true)
+
+# ── NLP & embeddings ─────────────────────────────────────────────────────────
+sentence-transformers==5.4.1
+spacy==3.7.5
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# ── Resume parsing ────────────────────────────────────────────────────────────
+pdfplumber==0.11.4
+python-docx==1.1.2
+PyMuPDF==1.24.9
+
+# ── Audio & video ─────────────────────────────────────────────────────────────
+openai-whisper==20240930
+librosa==0.10.2
+noisereduce==3.0.3
+ffmpeg-python==0.2.0
+soundfile==0.12.1
+
+# ── ML / scoring ─────────────────────────────────────────────────────────────
+scikit-learn==1.5.2
+rank-bm25==0.2.2
+numpy==1.26.4
+scipy==1.13.1
+shap==0.46.0
+
+# ── PyTorch (CPU default — use GPU base image in prod) ────────────────────────
+torch==2.4.1
+
+# ── Dev / testing ─────────────────────────────────────────────────────────────
+pytest==8.3.5
+ruff==0.11.8
+python-dotenv==1.1.0
