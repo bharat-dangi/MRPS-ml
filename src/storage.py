@@ -49,7 +49,6 @@ def _cloudinary_resource_type(public_id: str) -> str:
 
 def _download_cloudinary(public_id: str, suffix: str) -> str:
     import urllib.request
-
     import cloudinary
     import cloudinary.api
 
