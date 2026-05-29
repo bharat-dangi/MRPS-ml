@@ -31,5 +31,9 @@ jobs:
           cache: pip
       # Full deps: test_health imports the whole FastAPI app, and the video tests
       # need librosa. The en_core_web_sm model ships as a wheel in requirements.txt.
+      # PIP_CONSTRAINT pins build-time setuptools so openai-whisper's sdist builds
+      # (its setup.py needs pkg_resources, removed in setuptools 81+).
       - run: pip install -r requirements.txt
+        env:
+          PIP_CONSTRAINT: constraints.txt
       - run: pytest tests/ -v --tb=short

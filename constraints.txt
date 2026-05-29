@@ -1,0 +1,9 @@
+# Build-time constraints (used via PIP_CONSTRAINT during `pip install -r requirements.txt`).
+#
+# openai-whisper==20240930 ships an sdist whose setup.py imports `pkg_resources`,
+# which setuptools removed in 81.0.0. Without this pin, pip's build-isolation
+# environment grabs the latest setuptools and the wheel build fails with
+# "ModuleNotFoundError: No module named 'pkg_resources'".
+# Pinning the build-time setuptools below 81 keeps pkg_resources available.
+setuptools<81
+wheel
