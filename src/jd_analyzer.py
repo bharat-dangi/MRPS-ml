@@ -45,12 +45,6 @@ def analyze_jd(jd_text: str) -> dict:
     nlp, matcher = _load_nlp()
     doc = nlp(jd_text[:30_000])
 
-    # Extract all skills mentioned
-    all_skills = list(dict.fromkeys(
-        doc[start:end].text.lower()
-        for _, start, end in matcher(doc)
-    ))
-
     # Classify required vs preferred by sentence context
     required_skills: list[str] = []
     preferred_skills: list[str] = []

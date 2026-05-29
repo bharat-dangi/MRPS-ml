@@ -7,10 +7,10 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from src.db import get_db
-from src.models import Candidate, ExplainabilityData, Job, Resume, ScreeningResult, VideoResume
+from src.jd_analyzer import analyze_jd
 from src.matching.bm25_scorer import BM25Scorer
 from src.matching.embedder import ResumeEmbedder
-from src.jd_analyzer import analyze_jd
+from src.models import Candidate, ExplainabilityData, Job, Resume, ScreeningResult, VideoResume
 from src.scoring.composite import (
     compute_composite_score,
     compute_education_score,
@@ -75,7 +75,10 @@ def _score_candidate(
     }, has_video
 
 
-def _upsert_screening_result(job_id: int, candidate: Candidate, composite: float, features: dict, rank: int, db: Session) -> ScreeningResult:
+def _upsert_screening_result(
+    job_id: int, candidate: Candidate, composite: float, features: dict,
+    rank: int, db: Session,
+) -> ScreeningResult:
     existing = db.scalar(
         select(ScreeningResult).where(
             ScreeningResult.job_id == job_id,
@@ -137,10 +140,18 @@ def rank_job(job_id: int, db: Annotated[Session, Depends(get_db)]) -> RankRespon
     if not job:
         raise HTTPException(status_code=404, detail=f"Job {job_id} not found")
 
+    # Candidates linked to this job via either modality — Resume OR VideoResume.
+    resume_cids = select(Resume.candidate_id).where(Resume.job_id == job_id)
+    video_cids = select(VideoResume.candidate_id).where(
+        VideoResume.job_id == job_id,
+        VideoResume.deleted_at.is_(None),
+    )
     rows = db.execute(
-        select(Candidate, Resume)
-        .join(Resume, Resume.candidate_id == Candidate.id)
-        .where(Resume.job_id == job_id, Candidate.embedding.is_not(None))
+        select(Candidate)
+        .where(
+            Candidate.id.in_(resume_cids) | Candidate.id.in_(video_cids),
+            Candidate.embedding.is_not(None),
+        )
     ).all()
 
     if not rows:
@@ -187,7 +198,7 @@ def rank_job(job_id: int, db: Annotated[Session, Depends(get_db)]) -> RankRespon
 
     baselines = compute_population_baselines(feature_list)
     scored = sorted(
-        zip(candidates, feature_list),
+        zip(candidates, feature_list, strict=False),
         key=lambda x: compute_composite_score(**x[1]),
         reverse=True,
     )

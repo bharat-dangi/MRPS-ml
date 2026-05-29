@@ -6,7 +6,7 @@ from src.scoring.composite import (
     compute_experience_score,
     compute_skill_overlap,
 )
-from src.scoring.explainer import compute_population_baselines, compute_shap_values
+from src.scoring.explainer import compute_shap_values
 
 
 def test_weights_sum_to_one() -> None:
@@ -32,8 +32,15 @@ def test_skill_overlap_exact_match() -> None:
 
 
 def test_skill_overlap_partial() -> None:
+    """Candidate has Python; JD wants Python + Docker + FastAPI.
+    With the alias/hierarchy normaliser:
+      - python → python: 1.0
+      - docker → unrelated: 0
+      - fastapi → has 'python' as broader parent in HIERARCHY: 0.5 partial
+    Total = 1.5 / 3 = 0.5
+    """
     overlap = compute_skill_overlap(["python"], ["python", "docker", "fastapi"])
-    assert abs(overlap - 1 / 3) < 1e-9
+    assert abs(overlap - 0.5) < 1e-9
 
 
 def test_skill_overlap_no_required() -> None:
@@ -71,7 +78,6 @@ def test_shap_values_sum_to_score_minus_baseline() -> None:
 def test_demographic_parity_within_threshold() -> None:
     """Both groups drawn from same distribution — gap must be < 5%."""
     import random
-    rng = random.Random(42)
 
     def group_scores(seed: int) -> list[float]:
         r = random.Random(seed)

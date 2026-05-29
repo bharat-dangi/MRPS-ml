@@ -10,9 +10,9 @@ from sqlalchemy.orm import Session
 from src.db import get_db
 from src.models import Candidate, Job, VideoResume
 from src.storage import download_to_temp
+from src.video.audio_features import extract_audio_features
 from src.video.preprocessor import extract_audio
 from src.video.transcriber import transcribe
-from src.video.audio_features import extract_audio_features
 from src.video.video_scorer import compute_video_score
 
 router = APIRouter(prefix="/video", tags=["video"])
@@ -30,6 +30,73 @@ class VideoResponse(BaseModel):
     transcript_similarity: float
     comm_clarity: float
     content_coverage: float
+
+
+# Treated as "unknown" so the transcript NER can overwrite the candidate's name.
+_PLACEHOLDER_NAMES = {"test", "unknown", "demo", "candidate", "n/a", "na", "-"}
+
+
+def _is_placeholder_name(name: str | None) -> bool:
+    if not name:
+        return True
+    stripped = name.strip()
+    if not stripped:
+        return True
+    return stripped.lower() in _PLACEHOLDER_NAMES
+
+
+def _apply_text_and_embedding(candidate: Candidate, transcript_text: str) -> None:
+    if not (candidate.raw_text or "").strip():
+        candidate.raw_text = transcript_text
+    if candidate.embedding is None:
+        from src.matching.embedder import ResumeEmbedder
+        candidate.embedding = ResumeEmbedder().encode(transcript_text)
+
+
+def _apply_profile_scalars(candidate: Candidate, profile) -> None:
+    if _is_placeholder_name(candidate.full_name) and profile.full_name != "Unknown":
+        candidate.full_name = profile.full_name
+    if not (candidate.email or "").strip() and profile.email:
+        candidate.email = profile.email
+    if not (candidate.phone or "").strip() and profile.phone:
+        candidate.phone = profile.phone
+    if (candidate.years_experience or 0) == 0 and profile.years_experience > 0:
+        candidate.years_experience = profile.years_experience
+    if not candidate.education_level and profile.education_level:
+        candidate.education_level = profile.education_level
+
+
+def _merge_skills(
+    candidate: Candidate,
+    ner_skills: list[str],
+    jd_skill_sources: dict[str, str],
+) -> None:
+    merged_video_sources = {**dict.fromkeys(ner_skills, "video"), **jd_skill_sources}
+    if not merged_video_sources:
+        return
+    merged_sources = dict(candidate.skill_sources or {})
+    merged_sources.update(merged_video_sources)
+    candidate.skill_sources = merged_sources
+    existing_skills = {s.lower() for s in (candidate.skills or [])}
+    new_skills = [s for s in merged_video_sources if s.lower() not in existing_skills]
+    if new_skills:
+        candidate.skills = list(candidate.skills or []) + new_skills
+
+
+def _backfill_candidate_from_video(
+    candidate: Candidate,
+    transcript_text: str,
+    jd_skill_sources: dict[str, str],
+) -> None:
+    """Hydrate empty candidate fields from the transcript so video-only uploads can be ranked."""
+    if not transcript_text:
+        return
+    # Deferred — pulls spaCy + 5k-row taxonomy.
+    from src.ner.extractor import extract_candidate_profile
+    profile = extract_candidate_profile(transcript_text)
+    _apply_text_and_embedding(candidate, transcript_text)
+    _apply_profile_scalars(candidate, profile)
+    _merge_skills(candidate, profile.skills, jd_skill_sources)
 
 
 @router.post("/process", response_model=VideoResponse)
@@ -85,14 +152,13 @@ def process_video(body: VideoRequest, db: Annotated[Session, Depends(get_db)]) -
         vr.video_score = score_result["video_score"]
         vr.process_status = "done"
 
-        # Merge video skill_sources into candidate.skill_sources
-        video_sources: dict[str, str] = score_result.get("skill_sources", {})
-        if video_sources:
-            candidate = db.scalar(select(Candidate).where(Candidate.id == vr.candidate_id))
-            if candidate:
-                merged = dict(candidate.skill_sources or {})
-                merged.update(video_sources)
-                candidate.skill_sources = merged
+        candidate = db.scalar(select(Candidate).where(Candidate.id == vr.candidate_id))
+        if candidate:
+            _backfill_candidate_from_video(
+                candidate,
+                (transcript_result.get("transcript") or "").strip(),
+                score_result.get("skill_sources", {}),
+            )
 
         db.commit()
 
@@ -102,7 +168,7 @@ def process_video(body: VideoRequest, db: Annotated[Session, Depends(get_db)]) -
             status="done",
             video_resume_id=body.video_resume_id,
             video_score=score_result["video_score"],
-            transcript_similarity=score_result["transcript_similarity"],
+            transcript_similarity=score_result["transcript_sim"],
             comm_clarity=score_result["comm_clarity"],
             content_coverage=score_result["content_coverage"],
         )

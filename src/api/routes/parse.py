@@ -6,12 +6,12 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from src.db import get_db
-from src.models import Candidate, Resume
-from src.storage import download_to_temp
-from src.parsers.pdf_parser import extract_text_from_pdf
-from src.parsers.docx_parser import extract_text_from_docx
-from src.ner.extractor import extract_candidate_profile
 from src.matching.embedder import ResumeEmbedder
+from src.models import Candidate, Resume
+from src.ner.extractor import extract_candidate_profile
+from src.parsers.docx_parser import extract_text_from_docx
+from src.parsers.pdf_parser import extract_text_from_pdf
+from src.storage import download_to_temp
 
 router = APIRouter(prefix="/parse", tags=["parse"])
 

@@ -1,0 +1,97 @@
+{
+  "text_audit": {
+    "pairs": [
+      {
+        "a": "James Smith",
+        "b": "Wei Chen",
+        "score_a": 0.8866907301190006,
+        "score_b": 0.8866907301190006,
+        "delta": 0.0
+      },
+      {
+        "a": "Mary Johnson",
+        "b": "Aisha Khan",
+        "score_a": 0.8903305885845161,
+        "score_b": 0.8903305885845161,
+        "delta": 0.0
+      },
+      {
+        "a": "Robert Williams",
+        "b": "Mohammed Hassan",
+        "score_a": 0.8930969978782,
+        "score_b": 0.8930969978782,
+        "delta": 0.0
+      },
+      {
+        "a": "Patricia Brown",
+        "b": "Priya Patel",
+        "score_a": 0.8892234976925268,
+        "score_b": 0.8892234976925268,
+        "delta": 0.0
+      },
+      {
+        "a": "Michael Davis",
+        "b": "Diego Rodriguez",
+        "score_a": 0.8856352766738365,
+        "score_b": 0.8856352766738365,
+        "delta": 0.0
+      },
+      {
+        "a": "Emily Wilson",
+        "b": "Fatima Al-Sayed",
+        "score_a": 0.8894972526722349,
+        "score_b": 0.8894972526722349,
+        "delta": 0.0
+      },
+      {
+        "a": "David Anderson",
+        "b": "Kenji Tanaka",
+        "score_a": 0.8921298926048133,
+        "score_b": 0.8921298926048133,
+        "delta": 0.0
+      },
+      {
+        "a": "Linda Taylor",
+        "b": "Ngozi Okafor",
+        "score_a": 0.8897529588873485,
+        "score_b": 0.8897529588873485,
+        "delta": 0.0
+      },
+      {
+        "a": "Daniel Thomas",
+        "b": "Sofia Garcia",
+        "score_a": 0.8895386734926187,
+        "score_b": 0.8895386734926187,
+        "delta": 0.0
+      },
+      {
+        "a": "Sarah Moore",
+        "b": "Akira Suzuki",
+        "score_a": 0.8866053803675675,
+        "score_b": 0.8866053803675675,
+        "delta": 0.0
+      }
+    ],
+    "metrics": {
+      "mean_a": 0.8892501248972664,
+      "mean_b": 0.8892501248972664,
+      "gap": 0.0,
+      "passes": true
+    }
+  },
+  "accent_audit": {
+    "per_accent": {
+      "Australian English": 0.799,
+      "US English": 0.796,
+      "UK English": 0.793,
+      "Indian English": 0.79,
+      "Non-native (Mandarin L1)": 0.787
+    },
+    "metrics": {
+      "mean_native": 0.799,
+      "mean_non_native": 0.7915,
+      "gap": 0.007500000000000062,
+      "passes": true
+    }
+  }
+}

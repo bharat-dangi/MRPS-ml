@@ -1,4 +1,3 @@
-import numpy as np
 
 from src.scoring.composite import WEIGHTS
 

@@ -1,0 +1,39 @@
+{
+  "model": "tiny.en (production pipeline uses large-v3)",
+  "reference": "Hello, my name is Jordan. I have over seven years of experience as a backend engineer working with Python, FastAPI, and PostgreSQL. I am applying for the senior backend engineer position. Thank you for considering my application.",
+  "per_accent": {
+    "Australian English": {
+      "voice": "Karen",
+      "transcript": "Hello, my name is Jordan. I have over 7 years of experiences a backend engineer working with Python, Fast Appie, and Postgres QL. I am applying for the Senior Back End Engineer position. Thank you for considering my application.",
+      "wer": 0.24324324324324326,
+      "duration_seconds": 0.3203089237213135
+    },
+    "US English": {
+      "voice": "Eddy (English (US))",
+      "transcript": "Hello, my name is Jordan. I have over 7 years of experiences of back and engineer working with Python, for Stoppy and PostgreSQL. I am applying for the senior back and engineer position. Thank you for considering my application.",
+      "wer": 0.24324324324324326,
+      "duration_seconds": 0.21452903747558594
+    },
+    "UK English": {
+      "voice": "Eddy (English (UK))",
+      "transcript": "Hello, my name is Jordan. I have over seven years of experiences of backhand and to nail working with Python for StarPie and Postgres. I am applying for the senior backhand and to nail position. Thank you for considering my application.",
+      "wer": 0.35135135135135137,
+      "duration_seconds": 0.22143077850341797
+    },
+    "Indian English": {
+      "voice": "Aman",
+      "transcript": "Hello, my name is Jordan. I have over 7 years of experience as a backend engineer working with Python, Fastipi, and Post Grashel. I am applying for the Senior Backend Engineer position. Thank you for considering my application.",
+      "wer": 0.10810810810810811,
+      "duration_seconds": 0.21908307075500488
+    },
+    "Non-native (Spanish L1)": {
+      "voice": "M\u00f3nica",
+      "transcript": "Hello, my name is Yurdan. I am a very severe surface parent as a back-ended teenager working with Peton, fast-happy, and post-grace quickly. I am a plugin for this new back-ended teenager position. Then, click regrow for considering my applicator.",
+      "wer": 0.6216216216216216,
+      "duration_seconds": 0.24980401992797852
+    }
+  },
+  "overall_wer": 0.31351351351351353,
+  "target_wer": 0.15,
+  "warn_threshold": 0.2
+}

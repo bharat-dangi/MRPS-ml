@@ -1,10 +1,11 @@
 from dotenv import load_dotenv
+
 load_dotenv()  # must be before any src.* import that reads os.getenv at module level
 
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import FastAPI  # noqa: E402
+from fastapi.middleware.cors import CORSMiddleware  # noqa: E402
 
-from src.api.routes import parse, rank, video
+from src.api.routes import parse, rank, video  # noqa: E402
 
 app = FastAPI(
     title="Multimodal Resume Persona Screening with Explainable AI — ML Service",

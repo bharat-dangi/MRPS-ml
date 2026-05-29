@@ -29,5 +29,6 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install pytest numpy scikit-learn
+      - run: pip install pytest numpy scikit-learn spacy
+      - run: python -m spacy download en_core_web_sm
       - run: pytest tests/ -v --tb=short

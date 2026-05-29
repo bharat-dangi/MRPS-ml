@@ -1,8 +1,7 @@
 import logging
-from typing import Any
 
 import numpy as np
-from sqlalchemy import select, text
+from sqlalchemy import select
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import Session
 
@@ -19,8 +18,13 @@ def rank_all_candidates(job_id: int, engine: Engine) -> None:
     5. Bulk-upsert screening_results + explainability_data
     """
     # Import here so module can be imported without ML deps installed
-    from src.matching.embedder import ResumeEmbedder
+    import os
+
+    # Import ORM models via SQLAlchemy; must be importable in worker context
+    import sys
+
     from src.jd_analyzer import analyze_jd
+    from src.matching.embedder import ResumeEmbedder
     from src.scoring.composite import (
         WEIGHTS,
         compute_composite_score,
@@ -29,9 +33,6 @@ def rank_all_candidates(job_id: int, engine: Engine) -> None:
         compute_skill_overlap,
     )
     from src.scoring.explainer import compute_population_baselines, compute_shap_values
-
-    # Import ORM models via SQLAlchemy; must be importable in worker context
-    import sys, os
     _backend = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "backend")
     if os.path.isdir(_backend) and _backend not in sys.path:
         sys.path.insert(0, _backend)
@@ -104,7 +105,7 @@ def rank_all_candidates(job_id: int, engine: Engine) -> None:
         # Compute composite scores and rank
         scored = [
             (candidate, features, compute_composite_score(**features))
-            for candidate, features in zip(candidates, feature_list)
+            for candidate, features in zip(candidates, feature_list, strict=False)
         ]
         scored.sort(key=lambda x: x[2], reverse=True)
 

@@ -1,4 +1,3 @@
-import numpy as np
 
 # Weights when a video resume is present (must sum to 1.0)
 WEIGHTS_WITH_VIDEO: dict[str, float] = {
@@ -59,13 +58,38 @@ def compute_composite_score(
 
 
 def compute_skill_overlap(candidate_skills: list[str], required_skills: list[str]) -> float:
-    """Jaccard-style overlap between candidate and required skills."""
+    """Coverage of required skills, awarding 1.0 for exact/hierarchy matches and 0.5 for siblings.
+
+    Hierarchy is asymmetric — see skill_normalizer for the direction rules.
+    Score = sum(credits) / |required| ∈ [0, 1].
+    """
     if not required_skills:
         return 0.0
-    candidate_set = {s.lower() for s in candidate_skills}
-    required_set = {s.lower() for s in required_skills}
-    matched = candidate_set & required_set
-    return len(matched) / len(required_set)
+    from src.ner.skill_normalizer import (
+        HIERARCHY,
+        PARTIAL_CREDIT,
+        _family_of,
+        expand_candidate,
+        normalize,
+    )
+    candidate_set = expand_candidate(candidate_skills)
+    required_set = normalize(required_skills)
+    if not required_set:
+        return 0.0
+
+    total = 0.0
+    for req in required_set:
+        if req in candidate_set:
+            total += 1.0
+            continue
+        family = _family_of(req)
+        if family and (candidate_set & family):
+            total += PARTIAL_CREDIT
+            continue
+        req_parents = HIERARCHY.get(req, [])
+        if any(p in candidate_set for p in req_parents):
+            total += PARTIAL_CREDIT
+    return total / len(required_set)
 
 
 def compute_experience_score(candidate_years: float, required_years: int) -> float:

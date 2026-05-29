@@ -5,7 +5,7 @@ These are run after screening to detect bias in the scoring pipeline.
 from __future__ import annotations
 
 import logging
-from typing import Sequence
+from collections.abc import Sequence
 
 logger = logging.getLogger(__name__)
 
