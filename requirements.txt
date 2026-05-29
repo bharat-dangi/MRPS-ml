@@ -14,6 +14,7 @@ cloudinary==1.42.2            # Cloudinary (alternative — toggle via USE_CLOUD
 
 # ── NLP & embeddings ─────────────────────────────────────────────────────────
 sentence-transformers==5.4.1
+transformers==5.5.4          # pinned: newer transformers needs torch>2.4.1 (device_mesh)
 spacy==3.7.5
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
