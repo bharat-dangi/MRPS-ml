@@ -9,15 +9,13 @@ from pathlib import Path
 ML_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ML_ROOT / "scripts"))
 
-import pytest
-
+import pytest  # noqa: E402
 from run_eval import (  # noqa: E402
     _bootstrap_ci,
     mean_average_precision,
     ndcg_at_k,
     spearman,
 )
-
 
 # ── ndcg_at_k ────────────────────────────────────────────────────────────────
 

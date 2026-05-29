@@ -11,7 +11,6 @@ from src.fairness import (
     run_parity_check,
 )
 
-
 # ── compute_demographic_parity edge cases ────────────────────────────────────
 
 

@@ -3,10 +3,8 @@
 Requires spaCy + en_core_web_sm. Each test feeds a tiny JD and asserts on the
 returned shape and key extractions.
 """
-import pytest
 
 from src.jd_analyzer import analyze_jd
-
 
 # ── shape ────────────────────────────────────────────────────────────────────
 
