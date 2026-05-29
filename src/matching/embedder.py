@@ -14,6 +14,7 @@ class ResumeEmbedder:
     """
 
     _instance: "ResumeEmbedder | None" = None
+    _model: SentenceTransformer
 
     def __new__(cls) -> "ResumeEmbedder":
         if cls._instance is None:

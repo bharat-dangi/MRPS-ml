@@ -61,4 +61,4 @@ def run_parity_check(
         logger.info("[Fairness/%s] PASS — gap=%.4f (threshold=%.2f)", label, metrics["gap"], threshold)
     else:
         logger.warning("[Fairness/%s] FAIL — gap=%.4f exceeds threshold=%.2f", label, metrics["gap"], threshold)
-    return metrics["passes"]
+    return bool(metrics["passes"])

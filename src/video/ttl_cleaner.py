@@ -64,6 +64,6 @@ def mark_expired_videos(db: Session) -> int:
 
 def run_ttl_cleanup() -> int:
     """Entry point for Celery beat task — creates its own DB session."""
-    from src.db import SyncSessionLocal  # local import to allow standalone use
-    with SyncSessionLocal() as db:
+    from src.db import SessionLocal  # local import to allow standalone use
+    with SessionLocal() as db:
         return mark_expired_videos(db)

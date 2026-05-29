@@ -29,6 +29,7 @@ jobs:
         with:
           python-version: "3.11"
           cache: pip
-      - run: pip install pytest numpy scikit-learn spacy
+      # Pin spacy to match requirements.txt; click is needed by the spacy CLI (download).
+      - run: pip install pytest numpy scikit-learn spacy==3.7.5 click
       - run: python -m spacy download en_core_web_sm
       - run: pytest tests/ -v --tb=short
