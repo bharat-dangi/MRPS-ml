@@ -13,12 +13,10 @@ from pathlib import Path
 ML_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ML_ROOT / "scripts"))
 
-import pytest
-
 import generate_section_training_data as gstd  # noqa: E402
+import pytest  # noqa: E402
 import run_eval  # noqa: E402
 import run_ner_eval  # noqa: E402
-
 
 # ── run_ner_eval._gold_to_level ──────────────────────────────────────────────
 

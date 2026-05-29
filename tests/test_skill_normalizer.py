@@ -16,7 +16,6 @@ from src.ner.skill_normalizer import (
 )
 from src.scoring.composite import compute_skill_overlap
 
-
 # ── canonical / normalize ────────────────────────────────────────────────────
 
 
