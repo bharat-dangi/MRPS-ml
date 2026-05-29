@@ -1,0 +1,5079 @@
+[
+  {
+    "youtube_id": "MiulJCYLGI0",
+    "creator": "Eduardo Morales",
+    "job_title": "Senior Backend Engineer",
+    "duration_s": 153,
+    "s3_key": "videos/demo-seed/MiulJCYLGI0.mp4",
+    "transcript": "Hi, my name is Zwara Morales. I'm 20 years old and I'm from Madrid, Spain. I was born almost at the same time as the Internet and the first PC. I have seen its evolution from the beginning. This has always motivated me to be part of that evolution and contribute to the field of computer science with my ignorance. I started to be at the NISIAN Emick Computer Systems and Network. Ireland and the service are mountaineers of computers and how to manage local networks. I work with some operating systems in both Raffid mode and console mode. I also learned basics of computer security. I learned networking and service using the MIND WEF, MAY, FTP, service and other essential services. I also improved my knowledge in web applications. While I studied the Internet at the level, I also studied several certificates of professional learning which I learned obvious oriented programming language such as Java and Tensor and relational database using Transl-SQL. Further, I learned HTML5, TSS3, JavaScript, Yigwei, Busam and how to make mobile apps with a particular domain. I learned how to develop the model view controller architecture in both Java Enterprise and that net. When I finished my internship studies, I worked in a computer consulting field giving support and managing service. There I learned to be part of one dealing with clients. My goal was to work as a program and so I started to study to obtain a higher-tenecian diploma as a web developer. When I broke my knowledge in Java, web design and web servers. In addition to fully-contacting, the Apache server MIND SQL, database and the current MariaDB with SAM. Besides programming, I also like photography because I like a few moments that can't cause sensations in the hardware, which is something that interests me to take to the range of web design. I believe that technologies should make life easier for people and not the other way around. So my main objective is to develop clear and simple programs adapted to all available devices. So I use the web as a platform to launch the application.",
+    "transcript_confidence": 0.8599,
+    "audio_features": {
+      "mfcc_mean": [
+        -276.0838623046875,
+        85.6209716796875,
+        7.101912021636963,
+        26.224014282226562,
+        -3.3981475830078125,
+        -3.7940542697906494,
+        -8.654854774475098,
+        -9.740850448608398,
+        -9.080917358398438,
+        -5.385118007659912,
+        1.4879618883132935,
+        -2.0651822090148926,
+        -3.07830548286438
+      ],
+      "pitch_mean": 159.11220363138543,
+      "pitch_std": 64.09364843361827,
+      "speaking_rate": 0.7316460991424388,
+      "pause_ratio": 0.26835390085756117,
+      "snr_db": 15.330004102275812,
+      "transcript_sim": 0.3577576279640198,
+      "comm_clarity": 0.33999999999999997,
+      "content_coverage": 0.0,
+      "pace_score": 0.0,
+      "fluency_score": 0.6,
+      "articulation_score": 0.5,
+      "filler_rate": 2.0,
+      "wpm": 355.0,
+      "word_timestamps": [
+        {
+          "word": " Hi,",
+          "start": 0.0,
+          "end": 0.52
+        },
+        {
+          "word": " my",
+          "start": 0.7,
+          "end": 0.78
+        },
+        {
+          "word": " name",
+          "start": 0.78,
+          "end": 1.02
+        },
+        {
+          "word": " is",
+          "start": 1.02,
+          "end": 1.34
+        },
+        {
+          "word": " Zwara",
+          "start": 1.34,
+          "end": 1.68
+        },
+        {
+          "word": " Morales.",
+          "start": 1.68,
+          "end": 1.9
+        },
+        {
+          "word": " I'm",
+          "start": 2.52,
+          "end": 2.86
+        },
+        {
+          "word": " 20",
+          "start": 2.86,
+          "end": 3.06
+        },
+        {
+          "word": " years",
+          "start": 3.06,
+          "end": 3.4
+        },
+        {
+          "word": " old",
+          "start": 3.4,
+          "end": 3.78
+        },
+        {
+          "word": " and",
+          "start": 3.78,
+          "end": 4.3
+        },
+        {
+          "word": " I'm",
+          "start": 4.3,
+          "end": 4.78
+        },
+        {
+          "word": " from",
+          "start": 4.78,
+          "end": 4.98
+        },
+        {
+          "word": " Madrid,",
+          "start": 4.98,
+          "end": 5.3
+        },
+        {
+          "word": " Spain.",
+          "start": 5.64,
+          "end": 5.88
+        },
+        {
+          "word": " I",
+          "start": 6.48,
+          "end": 6.54
+        },
+        {
+          "word": " was",
+          "start": 6.54,
+          "end": 6.68
+        },
+        {
+          "word": " born",
+          "start": 6.68,
+          "end": 6.9
+        },
+        {
+          "word": " almost",
+          "start": 6.9,
+          "end": 7.36
+        },
+        {
+          "word": " at",
+          "start": 7.36,
+          "end": 7.72
+        },
+        {
+          "word": " the",
+          "start": 7.72,
+          "end": 7.84
+        },
+        {
+          "word": " same",
+          "start": 7.84,
+          "end": 8.14
+        },
+        {
+          "word": " time",
+          "start": 8.14,
+          "end": 8.5
+        },
+        {
+          "word": " as",
+          "start": 8.5,
+          "end": 8.82
+        },
+        {
+          "word": " the",
+          "start": 8.82,
+          "end": 8.94
+        },
+        {
+          "word": " Internet",
+          "start": 8.94,
+          "end": 9.28
+        },
+        {
+          "word": " and",
+          "start": 9.28,
+          "end": 9.66
+        },
+        {
+          "word": " the",
+          "start": 9.66,
+          "end": 9.8
+        },
+        {
+          "word": " first",
+          "start": 9.8,
+          "end": 10.08
+        },
+        {
+          "word": " PC.",
+          "start": 10.08,
+          "end": 10.54
+        },
+        {
+          "word": " I",
+          "start": 11.48,
+          "end": 11.56
+        },
+        {
+          "word": " have",
+          "start": 11.56,
+          "end": 11.74
+        },
+        {
+          "word": " seen",
+          "start": 11.74,
+          "end": 12.08
+        },
+        {
+          "word": " its",
+          "start": 12.08,
+          "end": 12.54
+        },
+        {
+          "word": " evolution",
+          "start": 12.54,
+          "end": 12.98
+        },
+        {
+          "word": " from",
+          "start": 12.98,
+          "end": 13.82
+        },
+        {
+          "word": " the",
+          "start": 13.82,
+          "end": 13.94
+        },
+        {
+          "word": " beginning.",
+          "start": 13.94,
+          "end": 14.24
+        },
+        {
+          "word": " This",
+          "start": 15.1,
+          "end": 15.38
+        },
+        {
+          "word": " has",
+          "start": 15.38,
+          "end": 15.88
+        },
+        {
+          "word": " always",
+          "start": 15.88,
+          "end": 16.46
+        },
+        {
+          "word": " motivated",
+          "start": 16.46,
+          "end": 16.8
+        },
+        {
+          "word": " me",
+          "start": 16.8,
+          "end": 17.3
+        },
+        {
+          "word": " to",
+          "start": 17.3,
+          "end": 17.52
+        },
+        {
+          "word": " be",
+          "start": 17.52,
+          "end": 17.64
+        },
+        {
+          "word": " part",
+          "start": 17.64,
+          "end": 17.86
+        },
+        {
+          "word": " of",
+          "start": 17.86,
+          "end": 18.2
+        },
+        {
+          "word": " that",
+          "start": 18.2,
+          "end": 18.44
+        },
+        {
+          "word": " evolution",
+          "start": 18.44,
+          "end": 18.82
+        },
+        {
+          "word": " and",
+          "start": 18.82,
+          "end": 19.74
+        },
+        {
+          "word": " contribute",
+          "start": 19.74,
+          "end": 20.14
+        },
+        {
+          "word": " to",
+          "start": 20.14,
+          "end": 20.78
+        },
+        {
+          "word": " the",
+          "start": 20.78,
+          "end": 20.9
+        },
+        {
+          "word": " field",
+          "start": 20.9,
+          "end": 21.26
+        },
+        {
+          "word": " of",
+          "start": 21.26,
+          "end": 21.76
+        },
+        {
+          "word": " computer",
+          "start": 21.76,
+          "end": 22.08
+        },
+        {
+          "word": " science",
+          "start": 22.08,
+          "end": 22.52
+        },
+        {
+          "word": " with",
+          "start": 22.52,
+          "end": 23.16
+        },
+        {
+          "word": " my",
+          "start": 23.16,
+          "end": 23.38
+        },
+        {
+          "word": " ignorance.",
+          "start": 23.38,
+          "end": 23.7
+        },
+        {
+          "word": " I",
+          "start": 24.64,
+          "end": 24.74
+        },
+        {
+          "word": " started",
+          "start": 24.74,
+          "end": 24.94
+        },
+        {
+          "word": " to",
+          "start": 24.94,
+          "end": 25.24
+        },
+        {
+          "word": " be",
+          "start": 25.24,
+          "end": 25.44
+        },
+        {
+          "word": " at",
+          "start": 25.44,
+          "end": 25.64
+        },
+        {
+          "word": " the",
+          "start": 25.64,
+          "end": 25.78
+        },
+        {
+          "word": " NISIAN",
+          "start": 25.78,
+          "end": 26.14
+        },
+        {
+          "word": " Emick",
+          "start": 26.14,
+          "end": 26.54
+        },
+        {
+          "word": " Computer",
+          "start": 26.54,
+          "end": 27.0
+        },
+        {
+          "word": " Systems",
+          "start": 27.0,
+          "end": 27.5
+        },
+        {
+          "word": " and",
+          "start": 27.5,
+          "end": 28.04
+        },
+        {
+          "word": " Network.",
+          "start": 28.04,
+          "end": 28.36
+        },
+        {
+          "word": " Ireland",
+          "start": 28.36,
+          "end": 29.2
+        },
+        {
+          "word": " and",
+          "start": 29.2,
+          "end": 29.7
+        },
+        {
+          "word": " the",
+          "start": 29.7,
+          "end": 29.84
+        },
+        {
+          "word": " service",
+          "start": 29.84,
+          "end": 30.08
+        },
+        {
+          "word": " are",
+          "start": 30.08,
+          "end": 30.52
+        },
+        {
+          "word": " mountaineers",
+          "start": 30.52,
+          "end": 31.12
+        },
+        {
+          "word": " of",
+          "start": 31.12,
+          "end": 31.42
+        },
+        {
+          "word": " computers",
+          "start": 31.42,
+          "end": 31.76
+        },
+        {
+          "word": " and",
+          "start": 31.76,
+          "end": 32.34
+        },
+        {
+          "word": " how",
+          "start": 32.34,
+          "end": 32.56
+        },
+        {
+          "word": " to",
+          "start": 32.56,
+          "end": 32.72
+        },
+        {
+          "word": " manage",
+          "start": 32.72,
+          "end": 32.98
+        },
+        {
+          "word": " local",
+          "start": 32.98,
+          "end": 33.44
+        },
+        {
+          "word": " networks.",
+          "start": 33.44,
+          "end": 34.06
+        },
+        {
+          "word": " I",
+          "start": 35.0,
+          "end": 35.26
+        },
+        {
+          "word": " work",
+          "start": 35.26,
+          "end": 35.58
+        },
+        {
+          "word": " with",
+          "start": 35.58,
+          "end": 36.38
+        },
+        {
+          "word": " some",
+          "start": 36.38,
+          "end": 36.7
+        },
+        {
+          "word": " operating",
+          "start": 36.7,
+          "end": 37.12
+        },
+        {
+          "word": " systems",
+          "start": 37.12,
+          "end": 37.66
+        },
+        {
+          "word": " in",
+          "start": 37.66,
+          "end": 38.18
+        },
+        {
+          "word": " both",
+          "start": 38.18,
+          "end": 38.36
+        },
+        {
+          "word": " Raffid",
+          "start": 38.36,
+          "end": 38.9
+        },
+        {
+          "word": " mode",
+          "start": 38.9,
+          "end": 39.08
+        },
+        {
+          "word": " and",
+          "start": 39.08,
+          "end": 39.66
+        },
+        {
+          "word": " console",
+          "start": 39.66,
+          "end": 39.92
+        },
+        {
+          "word": " mode.",
+          "start": 39.92,
+          "end": 40.38
+        },
+        {
+          "word": " I",
+          "start": 41.14,
+          "end": 41.4
+        },
+        {
+          "word": " also",
+          "start": 41.4,
+          "end": 41.58
+        },
+        {
+          "word": " learned",
+          "start": 41.58,
+          "end": 42.22
+        },
+        {
+          "word": " basics",
+          "start": 42.22,
+          "end": 42.68
+        },
+        {
+          "word": " of",
+          "start": 42.68,
+          "end": 43.56
+        },
+        {
+          "word": " computer",
+          "start": 43.56,
+          "end": 44.0
+        },
+        {
+          "word": " security.",
+          "start": 44.0,
+          "end": 44.5
+        },
+        {
+          "word": " I",
+          "start": 45.32,
+          "end": 45.36
+        },
+        {
+          "word": " learned",
+          "start": 45.36,
+          "end": 45.58
+        },
+        {
+          "word": " networking",
+          "start": 45.58,
+          "end": 46.14
+        },
+        {
+          "word": " and",
+          "start": 46.14,
+          "end": 46.3
+        },
+        {
+          "word": " service",
+          "start": 46.3,
+          "end": 46.64
+        },
+        {
+          "word": " using",
+          "start": 46.64,
+          "end": 47.3
+        },
+        {
+          "word": " the",
+          "start": 47.3,
+          "end": 47.5
+        },
+        {
+          "word": " MIND",
+          "start": 47.5,
+          "end": 47.78
+        },
+        {
+          "word": " WEF,",
+          "start": 47.78,
+          "end": 48.2
+        },
+        {
+          "word": " MAY,",
+          "start": 48.48,
+          "end": 48.62
+        },
+        {
+          "word": " FTP,",
+          "start": 49.2,
+          "end": 49.2
+        },
+        {
+          "word": " service",
+          "start": 49.72,
+          "end": 49.72
+        },
+        {
+          "word": " and",
+          "start": 49.72,
+          "end": 50.34
+        },
+        {
+          "word": " other",
+          "start": 50.34,
+          "end": 50.64
+        },
+        {
+          "word": " essential",
+          "start": 50.64,
+          "end": 51.16
+        },
+        {
+          "word": " services.",
+          "start": 51.16,
+          "end": 51.78
+        },
+        {
+          "word": " I",
+          "start": 52.3,
+          "end": 52.38
+        },
+        {
+          "word": " also",
+          "start": 52.38,
+          "end": 52.62
+        },
+        {
+          "word": " improved",
+          "start": 52.62,
+          "end": 52.88
+        },
+        {
+          "word": " my",
+          "start": 52.88,
+          "end": 53.16
+        },
+        {
+          "word": " knowledge",
+          "start": 53.16,
+          "end": 53.38
+        },
+        {
+          "word": " in",
+          "start": 53.38,
+          "end": 53.78
+        },
+        {
+          "word": " web",
+          "start": 53.78,
+          "end": 53.96
+        },
+        {
+          "word": " applications.",
+          "start": 53.96,
+          "end": 54.4
+        },
+        {
+          "word": " While",
+          "start": 54.4,
+          "end": 54.96
+        },
+        {
+          "word": " I",
+          "start": 54.96,
+          "end": 55.12
+        },
+        {
+          "word": " studied",
+          "start": 55.12,
+          "end": 55.52
+        },
+        {
+          "word": " the",
+          "start": 55.52,
+          "end": 56.1
+        },
+        {
+          "word": " Internet",
+          "start": 56.1,
+          "end": 56.26
+        },
+        {
+          "word": " at",
+          "start": 56.26,
+          "end": 56.62
+        },
+        {
+          "word": " the",
+          "start": 56.62,
+          "end": 56.62
+        },
+        {
+          "word": " level,",
+          "start": 56.62,
+          "end": 57.06
+        },
+        {
+          "word": " I",
+          "start": 57.36,
+          "end": 57.5
+        },
+        {
+          "word": " also",
+          "start": 57.5,
+          "end": 57.7
+        },
+        {
+          "word": " studied",
+          "start": 57.7,
+          "end": 58.12
+        },
+        {
+          "word": " several",
+          "start": 58.12,
+          "end": 58.48
+        },
+        {
+          "word": " certificates",
+          "start": 58.48,
+          "end": 59.24
+        },
+        {
+          "word": " of",
+          "start": 59.24,
+          "end": 59.94
+        },
+        {
+          "word": " professional",
+          "start": 59.94,
+          "end": 60.56
+        },
+        {
+          "word": " learning",
+          "start": 60.56,
+          "end": 61.02
+        },
+        {
+          "word": " which",
+          "start": 61.02,
+          "end": 61.46
+        },
+        {
+          "word": " I",
+          "start": 61.46,
+          "end": 61.8
+        },
+        {
+          "word": " learned",
+          "start": 61.8,
+          "end": 62.14
+        },
+        {
+          "word": " obvious",
+          "start": 62.14,
+          "end": 62.58
+        },
+        {
+          "word": " oriented",
+          "start": 62.58,
+          "end": 63.2
+        },
+        {
+          "word": " programming",
+          "start": 63.2,
+          "end": 63.86
+        },
+        {
+          "word": " language",
+          "start": 63.86,
+          "end": 64.72
+        },
+        {
+          "word": " such",
+          "start": 64.72,
+          "end": 65.26
+        },
+        {
+          "word": " as",
+          "start": 65.26,
+          "end": 65.78
+        },
+        {
+          "word": " Java",
+          "start": 65.78,
+          "end": 66.32
+        },
+        {
+          "word": " and",
+          "start": 66.32,
+          "end": 66.74
+        },
+        {
+          "word": " Tensor",
+          "start": 66.74,
+          "end": 67.0
+        },
+        {
+          "word": " and",
+          "start": 67.0,
+          "end": 67.42
+        },
+        {
+          "word": " relational",
+          "start": 67.42,
+          "end": 67.94
+        },
+        {
+          "word": " database",
+          "start": 67.94,
+          "end": 68.62
+        },
+        {
+          "word": " using",
+          "start": 68.62,
+          "end": 69.24
+        },
+        {
+          "word": " Transl",
+          "start": 69.24,
+          "end": 69.86
+        },
+        {
+          "word": "-SQL.",
+          "start": 69.86,
+          "end": 70.6
+        },
+        {
+          "word": " Further,",
+          "start": 71.52,
+          "end": 71.74
+        },
+        {
+          "word": " I",
+          "start": 72.02,
+          "end": 72.28
+        },
+        {
+          "word": " learned",
+          "start": 72.28,
+          "end": 72.9
+        },
+        {
+          "word": " HTML5,",
+          "start": 72.9,
+          "end": 75.18
+        },
+        {
+          "word": " TSS3,",
+          "start": 75.86,
+          "end": 76.88
+        },
+        {
+          "word": " JavaScript,",
+          "start": 77.6,
+          "end": 77.6
+        },
+        {
+          "word": " Yigwei,",
+          "start": 77.96,
+          "end": 78.34
+        },
+        {
+          "word": " Busam",
+          "start": 78.46,
+          "end": 78.78
+        },
+        {
+          "word": " and",
+          "start": 78.78,
+          "end": 79.06
+        },
+        {
+          "word": " how",
+          "start": 79.06,
+          "end": 79.3
+        },
+        {
+          "word": " to",
+          "start": 79.3,
+          "end": 79.5
+        },
+        {
+          "word": " make",
+          "start": 79.5,
+          "end": 79.72
+        },
+        {
+          "word": " mobile",
+          "start": 79.72,
+          "end": 79.98
+        },
+        {
+          "word": " apps",
+          "start": 79.98,
+          "end": 80.4
+        },
+        {
+          "word": " with",
+          "start": 80.4,
+          "end": 80.88
+        },
+        {
+          "word": " a",
+          "start": 80.88,
+          "end": 81.1
+        },
+        {
+          "word": " particular",
+          "start": 81.1,
+          "end": 81.36
+        },
+        {
+          "word": " domain.",
+          "start": 81.36,
+          "end": 81.76
+        },
+        {
+          "word": " I",
+          "start": 81.76,
+          "end": 82.04
+        },
+        {
+          "word": " learned",
+          "start": 82.04,
+          "end": 82.34
+        },
+        {
+          "word": " how",
+          "start": 82.34,
+          "end": 82.84
+        },
+        {
+          "word": " to",
+          "start": 82.84,
+          "end": 83.04
+        },
+        {
+          "word": " develop",
+          "start": 83.04,
+          "end": 83.28
+        },
+        {
+          "word": " the",
+          "start": 83.28,
+          "end": 83.74
+        },
+        {
+          "word": " model",
+          "start": 83.74,
+          "end": 83.92
+        },
+        {
+          "word": " view",
+          "start": 83.92,
+          "end": 84.24
+        },
+        {
+          "word": " controller",
+          "start": 84.24,
+          "end": 84.68
+        },
+        {
+          "word": " architecture",
+          "start": 84.68,
+          "end": 85.28
+        },
+        {
+          "word": " in",
+          "start": 85.28,
+          "end": 86.14
+        },
+        {
+          "word": " both",
+          "start": 86.14,
+          "end": 86.36
+        },
+        {
+          "word": " Java",
+          "start": 86.36,
+          "end": 86.9
+        },
+        {
+          "word": " Enterprise",
+          "start": 86.9,
+          "end": 87.44
+        },
+        {
+          "word": " and",
+          "start": 87.44,
+          "end": 88.3
+        },
+        {
+          "word": " that",
+          "start": 88.3,
+          "end": 89.02
+        },
+        {
+          "word": " net.",
+          "start": 89.02,
+          "end": 89.46
+        },
+        {
+          "word": " When",
+          "start": 89.92,
+          "end": 90.1
+        }
+      ]
+    },
+    "video_score": 0.28087881398200987,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "networking",
+      "java",
+      "sql",
+      "html5",
+      "javascript",
+      "web design",
+      "mariadb",
+      "photography"
+    ],
+    "transcript_years_experience": 0.0,
+    "transcript_education_level": "diploma"
+  },
+  {
+    "youtube_id": "teMWt6BYg9E",
+    "creator": "Tomislav Pajtak",
+    "job_title": "Machine Learning Engineer",
+    "duration_s": 85,
+    "s3_key": "videos/demo-seed/teMWt6BYg9E.mp4",
+    "transcript": "Good day all. My name is Tomislav Pytak, but feel free to call me Tom. I'm from Croatia with over 15 years of experience working on board cruise ships with many different nationalities, where English language is the mandatory language for all as a main way of communication. I'm also Tefel certified teaching English as a foreign language. And also I have Star Center instructor certificate as well, which makes me a pretty good person to teach English online for all new learners. Besides the certificate I have managerial experience working with different nationalities on board, travelling the world. I'll be more than happy to share my experience with you. I'm willing to teach young, elderly and everyone in between, as long as you have positive attitudes and desire to learn will go a long way. Thank you for your time and hopefully I'll see you soon. Okay, bye now.",
+    "transcript_confidence": 0.8826,
+    "audio_features": {
+      "mfcc_mean": [
+        -458.2060241699219,
+        89.44925689697266,
+        23.889436721801758,
+        6.154504776000977,
+        -5.623435020446777,
+        -7.922266960144043,
+        -7.741728782653809,
+        -10.537239074707031,
+        -1.683791160583496,
+        -3.3544280529022217,
+        -13.916326522827148,
+        -5.751544952392578,
+        -1.887036919593811
+      ],
+      "pitch_mean": 232.19724145809622,
+      "pitch_std": 110.51550793267883,
+      "speaking_rate": 0.44945509207065015,
+      "pause_ratio": 0.5505449079293498,
+      "snr_db": 24.161409811855602,
+      "transcript_sim": 0.2067854404449463,
+      "comm_clarity": 0.9,
+      "content_coverage": 0.0,
+      "pace_score": 1.0,
+      "fluency_score": 1.0,
+      "articulation_score": 0.5,
+      "filler_rate": 0.0,
+      "wpm": 150.0,
+      "word_timestamps": [
+        {
+          "word": " Good",
+          "start": 2.98,
+          "end": 3.64
+        },
+        {
+          "word": " day",
+          "start": 3.64,
+          "end": 3.78
+        },
+        {
+          "word": " all.",
+          "start": 3.78,
+          "end": 3.94
+        },
+        {
+          "word": " My",
+          "start": 4.44,
+          "end": 4.62
+        },
+        {
+          "word": " name",
+          "start": 4.62,
+          "end": 4.78
+        },
+        {
+          "word": " is",
+          "start": 4.78,
+          "end": 4.9
+        },
+        {
+          "word": " Tomislav",
+          "start": 4.9,
+          "end": 5.34
+        },
+        {
+          "word": " Pytak,",
+          "start": 5.34,
+          "end": 5.72
+        },
+        {
+          "word": " but",
+          "start": 5.98,
+          "end": 6.12
+        },
+        {
+          "word": " feel",
+          "start": 6.12,
+          "end": 6.6
+        },
+        {
+          "word": " free",
+          "start": 6.6,
+          "end": 6.86
+        },
+        {
+          "word": " to",
+          "start": 6.86,
+          "end": 7.0
+        },
+        {
+          "word": " call",
+          "start": 7.0,
+          "end": 7.2
+        },
+        {
+          "word": " me",
+          "start": 7.2,
+          "end": 7.36
+        },
+        {
+          "word": " Tom.",
+          "start": 7.36,
+          "end": 7.56
+        },
+        {
+          "word": " I'm",
+          "start": 8.3,
+          "end": 8.82
+        },
+        {
+          "word": " from",
+          "start": 8.82,
+          "end": 8.96
+        },
+        {
+          "word": " Croatia",
+          "start": 8.96,
+          "end": 9.22
+        },
+        {
+          "word": " with",
+          "start": 9.22,
+          "end": 9.68
+        },
+        {
+          "word": " over",
+          "start": 9.68,
+          "end": 9.86
+        },
+        {
+          "word": " 15",
+          "start": 9.86,
+          "end": 10.5
+        },
+        {
+          "word": " years",
+          "start": 10.5,
+          "end": 10.78
+        },
+        {
+          "word": " of",
+          "start": 10.78,
+          "end": 10.98
+        },
+        {
+          "word": " experience",
+          "start": 10.98,
+          "end": 11.36
+        },
+        {
+          "word": " working",
+          "start": 11.36,
+          "end": 12.02
+        },
+        {
+          "word": " on",
+          "start": 12.02,
+          "end": 12.32
+        },
+        {
+          "word": " board",
+          "start": 12.32,
+          "end": 12.5
+        },
+        {
+          "word": " cruise",
+          "start": 12.5,
+          "end": 12.8
+        },
+        {
+          "word": " ships",
+          "start": 12.8,
+          "end": 13.02
+        },
+        {
+          "word": " with",
+          "start": 13.02,
+          "end": 13.32
+        },
+        {
+          "word": " many",
+          "start": 13.32,
+          "end": 13.84
+        },
+        {
+          "word": " different",
+          "start": 13.84,
+          "end": 14.12
+        },
+        {
+          "word": " nationalities,",
+          "start": 14.12,
+          "end": 14.94
+        },
+        {
+          "word": " where",
+          "start": 15.28,
+          "end": 15.44
+        },
+        {
+          "word": " English",
+          "start": 15.44,
+          "end": 15.82
+        },
+        {
+          "word": " language",
+          "start": 15.82,
+          "end": 16.28
+        },
+        {
+          "word": " is",
+          "start": 16.28,
+          "end": 16.7
+        },
+        {
+          "word": " the",
+          "start": 16.7,
+          "end": 16.84
+        },
+        {
+          "word": " mandatory",
+          "start": 16.84,
+          "end": 17.22
+        },
+        {
+          "word": " language",
+          "start": 17.22,
+          "end": 17.72
+        },
+        {
+          "word": " for",
+          "start": 17.72,
+          "end": 18.02
+        },
+        {
+          "word": " all",
+          "start": 18.02,
+          "end": 18.3
+        },
+        {
+          "word": " as",
+          "start": 18.3,
+          "end": 18.9
+        },
+        {
+          "word": " a",
+          "start": 18.9,
+          "end": 18.98
+        },
+        {
+          "word": " main",
+          "start": 18.98,
+          "end": 19.14
+        },
+        {
+          "word": " way",
+          "start": 19.14,
+          "end": 19.34
+        },
+        {
+          "word": " of",
+          "start": 19.34,
+          "end": 19.56
+        },
+        {
+          "word": " communication.",
+          "start": 19.56,
+          "end": 20.02
+        },
+        {
+          "word": " I'm",
+          "start": 21.14,
+          "end": 21.66
+        },
+        {
+          "word": " also",
+          "start": 21.66,
+          "end": 22.0
+        },
+        {
+          "word": " Tefel",
+          "start": 22.0,
+          "end": 22.5
+        },
+        {
+          "word": " certified",
+          "start": 22.5,
+          "end": 22.82
+        },
+        {
+          "word": " teaching",
+          "start": 22.82,
+          "end": 23.64
+        },
+        {
+          "word": " English",
+          "start": 23.64,
+          "end": 24.18
+        },
+        {
+          "word": " as",
+          "start": 24.18,
+          "end": 24.54
+        },
+        {
+          "word": " a",
+          "start": 24.54,
+          "end": 24.64
+        },
+        {
+          "word": " foreign",
+          "start": 24.64,
+          "end": 24.88
+        },
+        {
+          "word": " language.",
+          "start": 24.88,
+          "end": 25.4
+        },
+        {
+          "word": " And",
+          "start": 26.56,
+          "end": 27.22
+        },
+        {
+          "word": " also",
+          "start": 27.22,
+          "end": 27.6
+        },
+        {
+          "word": " I",
+          "start": 27.6,
+          "end": 28.0
+        },
+        {
+          "word": " have",
+          "start": 28.0,
+          "end": 28.2
+        },
+        {
+          "word": " Star",
+          "start": 28.2,
+          "end": 28.58
+        },
+        {
+          "word": " Center",
+          "start": 28.58,
+          "end": 29.32
+        },
+        {
+          "word": " instructor",
+          "start": 29.32,
+          "end": 29.98
+        },
+        {
+          "word": " certificate",
+          "start": 29.98,
+          "end": 31.12
+        },
+        {
+          "word": " as",
+          "start": 31.12,
+          "end": 31.78
+        },
+        {
+          "word": " well,",
+          "start": 31.78,
+          "end": 31.98
+        },
+        {
+          "word": " which",
+          "start": 33.12,
+          "end": 33.32
+        },
+        {
+          "word": " makes",
+          "start": 33.32,
+          "end": 33.5
+        },
+        {
+          "word": " me",
+          "start": 33.5,
+          "end": 33.74
+        },
+        {
+          "word": " a",
+          "start": 33.74,
+          "end": 34.0
+        },
+        {
+          "word": " pretty",
+          "start": 34.0,
+          "end": 34.1
+        },
+        {
+          "word": " good",
+          "start": 34.1,
+          "end": 34.28
+        },
+        {
+          "word": " person",
+          "start": 34.28,
+          "end": 34.7
+        },
+        {
+          "word": " to",
+          "start": 34.7,
+          "end": 34.94
+        },
+        {
+          "word": " teach",
+          "start": 34.94,
+          "end": 35.14
+        },
+        {
+          "word": " English",
+          "start": 35.14,
+          "end": 35.52
+        },
+        {
+          "word": " online",
+          "start": 35.52,
+          "end": 35.86
+        },
+        {
+          "word": " for",
+          "start": 35.86,
+          "end": 36.38
+        },
+        {
+          "word": " all",
+          "start": 36.38,
+          "end": 36.74
+        },
+        {
+          "word": " new",
+          "start": 36.74,
+          "end": 37.14
+        },
+        {
+          "word": " learners.",
+          "start": 37.14,
+          "end": 37.8
+        },
+        {
+          "word": " Besides",
+          "start": 38.8,
+          "end": 39.22
+        },
+        {
+          "word": " the",
+          "start": 39.22,
+          "end": 39.62
+        },
+        {
+          "word": " certificate",
+          "start": 39.62,
+          "end": 39.92
+        },
+        {
+          "word": " I",
+          "start": 39.92,
+          "end": 40.38
+        },
+        {
+          "word": " have",
+          "start": 40.38,
+          "end": 40.52
+        },
+        {
+          "word": " managerial",
+          "start": 40.52,
+          "end": 40.8
+        },
+        {
+          "word": " experience",
+          "start": 40.8,
+          "end": 41.7
+        },
+        {
+          "word": " working",
+          "start": 41.7,
+          "end": 42.24
+        },
+        {
+          "word": " with",
+          "start": 42.24,
+          "end": 42.46
+        },
+        {
+          "word": " different",
+          "start": 42.46,
+          "end": 42.62
+        },
+        {
+          "word": " nationalities",
+          "start": 42.62,
+          "end": 43.44
+        },
+        {
+          "word": " on",
+          "start": 43.44,
+          "end": 43.64
+        },
+        {
+          "word": " board,",
+          "start": 43.64,
+          "end": 43.88
+        },
+        {
+          "word": " travelling",
+          "start": 44.46,
+          "end": 44.68
+        },
+        {
+          "word": " the",
+          "start": 44.68,
+          "end": 44.94
+        },
+        {
+          "word": " world.",
+          "start": 44.94,
+          "end": 45.16
+        },
+        {
+          "word": " I'll",
+          "start": 45.96,
+          "end": 46.08
+        },
+        {
+          "word": " be",
+          "start": 46.08,
+          "end": 46.22
+        },
+        {
+          "word": " more",
+          "start": 46.22,
+          "end": 46.5
+        },
+        {
+          "word": " than",
+          "start": 46.5,
+          "end": 46.66
+        },
+        {
+          "word": " happy",
+          "start": 46.66,
+          "end": 46.9
+        },
+        {
+          "word": " to",
+          "start": 46.9,
+          "end": 47.14
+        },
+        {
+          "word": " share",
+          "start": 47.14,
+          "end": 47.34
+        },
+        {
+          "word": " my",
+          "start": 47.34,
+          "end": 47.5
+        },
+        {
+          "word": " experience",
+          "start": 47.5,
+          "end": 47.94
+        },
+        {
+          "word": " with",
+          "start": 47.94,
+          "end": 48.16
+        },
+        {
+          "word": " you.",
+          "start": 48.16,
+          "end": 48.36
+        },
+        {
+          "word": " I'm",
+          "start": 49.34,
+          "end": 49.62
+        },
+        {
+          "word": " willing",
+          "start": 49.62,
+          "end": 49.72
+        },
+        {
+          "word": " to",
+          "start": 49.72,
+          "end": 49.92
+        },
+        {
+          "word": " teach",
+          "start": 49.92,
+          "end": 50.16
+        },
+        {
+          "word": " young,",
+          "start": 50.16,
+          "end": 50.6
+        },
+        {
+          "word": " elderly",
+          "start": 51.44,
+          "end": 51.44
+        },
+        {
+          "word": " and",
+          "start": 51.44,
+          "end": 52.06
+        },
+        {
+          "word": " everyone",
+          "start": 52.06,
+          "end": 52.38
+        },
+        {
+          "word": " in",
+          "start": 52.38,
+          "end": 52.64
+        },
+        {
+          "word": " between,",
+          "start": 52.64,
+          "end": 52.88
+        },
+        {
+          "word": " as",
+          "start": 53.38,
+          "end": 53.88
+        },
+        {
+          "word": " long",
+          "start": 53.88,
+          "end": 54.06
+        },
+        {
+          "word": " as",
+          "start": 54.06,
+          "end": 54.2
+        },
+        {
+          "word": " you",
+          "start": 54.2,
+          "end": 54.28
+        },
+        {
+          "word": " have",
+          "start": 54.28,
+          "end": 54.42
+        },
+        {
+          "word": " positive",
+          "start": 54.42,
+          "end": 54.84
+        },
+        {
+          "word": " attitudes",
+          "start": 54.84,
+          "end": 55.32
+        },
+        {
+          "word": " and",
+          "start": 55.32,
+          "end": 55.92
+        },
+        {
+          "word": " desire",
+          "start": 55.92,
+          "end": 56.16
+        },
+        {
+          "word": " to",
+          "start": 56.16,
+          "end": 56.46
+        },
+        {
+          "word": " learn",
+          "start": 56.46,
+          "end": 56.68
+        },
+        {
+          "word": " will",
+          "start": 56.68,
+          "end": 57.26
+        },
+        {
+          "word": " go",
+          "start": 57.26,
+          "end": 57.46
+        },
+        {
+          "word": " a",
+          "start": 57.46,
+          "end": 57.6
+        },
+        {
+          "word": " long",
+          "start": 57.6,
+          "end": 57.72
+        },
+        {
+          "word": " way.",
+          "start": 57.72,
+          "end": 58.14
+        },
+        {
+          "word": " Thank",
+          "start": 59.12,
+          "end": 59.6
+        },
+        {
+          "word": " you",
+          "start": 59.6,
+          "end": 59.76
+        },
+        {
+          "word": " for",
+          "start": 59.76,
+          "end": 59.88
+        },
+        {
+          "word": " your",
+          "start": 59.88,
+          "end": 59.98
+        },
+        {
+          "word": " time",
+          "start": 59.98,
+          "end": 60.24
+        },
+        {
+          "word": " and",
+          "start": 60.24,
+          "end": 60.66
+        },
+        {
+          "word": " hopefully",
+          "start": 60.66,
+          "end": 61.0
+        },
+        {
+          "word": " I'll",
+          "start": 61.0,
+          "end": 61.38
+        },
+        {
+          "word": " see",
+          "start": 61.38,
+          "end": 61.5
+        },
+        {
+          "word": " you",
+          "start": 61.5,
+          "end": 61.62
+        },
+        {
+          "word": " soon.",
+          "start": 61.62,
+          "end": 61.84
+        },
+        {
+          "word": " Okay,",
+          "start": 62.82,
+          "end": 63.06
+        },
+        {
+          "word": " bye",
+          "start": 63.38,
+          "end": 63.66
+        },
+        {
+          "word": " now.",
+          "start": 63.66,
+          "end": 63.86
+        }
+      ]
+    },
+    "video_score": 0.37339272022247316,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "communication",
+      "teaching"
+    ],
+    "transcript_years_experience": 15.0,
+    "transcript_education_level": null
+  },
+  {
+    "youtube_id": "lTxfdl6HpT4",
+    "creator": "Ali",
+    "job_title": "Financial Analyst",
+    "duration_s": 132,
+    "s3_key": "videos/demo-seed/lTxfdl6HpT4.mp4",
+    "transcript": "Hi, my name is Ali and I'm 16 years old. I live in Sweden. Currently I'm a student at Stockholm Science Innovation School. My interest includes Mathematics, IT, Programming, Game Development and Blockchain. I have different types of work experience. I have worked at HP where I was working IT service desk as a helper to get industry experience as part of my school project. I was looking into computer, hardware and software issues including installation and upgrading. I have also worked as a physical trainer at Fatihav Familia Dog Him where I did outdoor and indoor physical activities with kids in age 3 to 9. Along with my studies, I'm working with Blockchain Technology at Cornet AB. Cornet AB is also known with identities as Sweden Cornet and EOS Telos Sweden. I'm taking care of social media, collaboration, communication activities in Cornet. I'm also making my own short videos on different crypto and blockchain topics and in parallel work with their web development. Here is the link of the video that I made and edit for others. In my part time I work as a video editor. If you interest to know more about that, here is my fiberlink account. I am a martial arts student and have been practicing Tackwondo for 3 years. I love to play football and going out cycling. If you want to know more about me, here are some few other things. Thank you and see you later.",
+    "transcript_confidence": 0.8355,
+    "audio_features": {
+      "mfcc_mean": [
+        -407.67364501953125,
+        62.042938232421875,
+        -3.9100964069366455,
+        15.288543701171875,
+        -2.6837263107299805,
+        -15.112223625183105,
+        -5.977950572967529,
+        -8.248281478881836,
+        1.0516228675842285,
+        -5.754430770874023,
+        1.1082122325897217,
+        10.592025756835938,
+        -3.154735803604126
+      ],
+      "pitch_mean": 183.82448903041416,
+      "pitch_std": 107.2981341745493,
+      "speaking_rate": 0.2708383667552549,
+      "pause_ratio": 0.729161633244745,
+      "snr_db": 14.848790588431086,
+      "transcript_sim": 0.15759865939617157,
+      "comm_clarity": 0.5,
+      "content_coverage": 0.0,
+      "pace_score": 0.0,
+      "fluency_score": 1.0,
+      "articulation_score": 0.5,
+      "filler_rate": 0.0,
+      "wpm": 244.0,
+      "word_timestamps": [
+        {
+          "word": " Hi,",
+          "start": 4.759999999999997,
+          "end": 5.56
+        },
+        {
+          "word": " my",
+          "start": 6.06,
+          "end": 6.38
+        },
+        {
+          "word": " name",
+          "start": 6.38,
+          "end": 6.58
+        },
+        {
+          "word": " is",
+          "start": 6.58,
+          "end": 6.76
+        },
+        {
+          "word": " Ali",
+          "start": 6.76,
+          "end": 6.94
+        },
+        {
+          "word": " and",
+          "start": 6.94,
+          "end": 7.4
+        },
+        {
+          "word": " I'm",
+          "start": 7.4,
+          "end": 7.62
+        },
+        {
+          "word": " 16",
+          "start": 7.62,
+          "end": 7.96
+        },
+        {
+          "word": " years",
+          "start": 7.96,
+          "end": 8.26
+        },
+        {
+          "word": " old.",
+          "start": 8.26,
+          "end": 8.56
+        },
+        {
+          "word": " I",
+          "start": 9.14,
+          "end": 9.28
+        },
+        {
+          "word": " live",
+          "start": 9.28,
+          "end": 9.44
+        },
+        {
+          "word": " in",
+          "start": 9.44,
+          "end": 9.62
+        },
+        {
+          "word": " Sweden.",
+          "start": 9.62,
+          "end": 10.08
+        },
+        {
+          "word": " Currently",
+          "start": 10.8,
+          "end": 11.06
+        },
+        {
+          "word": " I'm",
+          "start": 11.06,
+          "end": 11.76
+        },
+        {
+          "word": " a",
+          "start": 11.76,
+          "end": 11.84
+        },
+        {
+          "word": " student",
+          "start": 11.84,
+          "end": 12.2
+        },
+        {
+          "word": " at",
+          "start": 12.2,
+          "end": 12.68
+        },
+        {
+          "word": " Stockholm",
+          "start": 12.68,
+          "end": 13.02
+        },
+        {
+          "word": " Science",
+          "start": 13.02,
+          "end": 13.6
+        },
+        {
+          "word": " Innovation",
+          "start": 13.6,
+          "end": 13.98
+        },
+        {
+          "word": " School.",
+          "start": 13.98,
+          "end": 14.56
+        },
+        {
+          "word": " My",
+          "start": 15.36,
+          "end": 15.88
+        },
+        {
+          "word": " interest",
+          "start": 15.88,
+          "end": 16.26
+        },
+        {
+          "word": " includes",
+          "start": 16.26,
+          "end": 16.98
+        },
+        {
+          "word": " Mathematics,",
+          "start": 16.98,
+          "end": 17.52
+        },
+        {
+          "word": " IT,",
+          "start": 18.68,
+          "end": 18.68
+        },
+        {
+          "word": " Programming,",
+          "start": 19.1,
+          "end": 19.54
+        },
+        {
+          "word": " Game",
+          "start": 20.58,
+          "end": 20.62
+        },
+        {
+          "word": " Development",
+          "start": 20.62,
+          "end": 20.94
+        },
+        {
+          "word": " and",
+          "start": 20.94,
+          "end": 21.7
+        },
+        {
+          "word": " Blockchain.",
+          "start": 21.7,
+          "end": 22.0
+        },
+        {
+          "word": " I",
+          "start": 24.939999999999998,
+          "end": 25.34
+        },
+        {
+          "word": " have",
+          "start": 25.34,
+          "end": 25.54
+        },
+        {
+          "word": " different",
+          "start": 25.54,
+          "end": 25.9
+        },
+        {
+          "word": " types",
+          "start": 25.9,
+          "end": 26.32
+        },
+        {
+          "word": " of",
+          "start": 26.32,
+          "end": 26.82
+        },
+        {
+          "word": " work",
+          "start": 26.82,
+          "end": 27.04
+        },
+        {
+          "word": " experience.",
+          "start": 27.04,
+          "end": 27.4
+        },
+        {
+          "word": " I",
+          "start": 27.4,
+          "end": 28.32
+        },
+        {
+          "word": " have",
+          "start": 28.32,
+          "end": 29.08
+        },
+        {
+          "word": " worked",
+          "start": 29.08,
+          "end": 29.36
+        },
+        {
+          "word": " at",
+          "start": 29.36,
+          "end": 29.82
+        },
+        {
+          "word": " HP",
+          "start": 29.82,
+          "end": 30.22
+        },
+        {
+          "word": " where",
+          "start": 30.22,
+          "end": 31.14
+        },
+        {
+          "word": " I",
+          "start": 31.14,
+          "end": 31.28
+        },
+        {
+          "word": " was",
+          "start": 31.28,
+          "end": 31.44
+        },
+        {
+          "word": " working",
+          "start": 31.44,
+          "end": 31.82
+        },
+        {
+          "word": " IT",
+          "start": 31.82,
+          "end": 32.28
+        },
+        {
+          "word": " service",
+          "start": 32.28,
+          "end": 32.88
+        },
+        {
+          "word": " desk",
+          "start": 32.88,
+          "end": 33.34
+        },
+        {
+          "word": " as",
+          "start": 33.34,
+          "end": 33.92
+        },
+        {
+          "word": " a",
+          "start": 33.92,
+          "end": 34.08
+        },
+        {
+          "word": " helper",
+          "start": 34.08,
+          "end": 34.32
+        },
+        {
+          "word": " to",
+          "start": 34.32,
+          "end": 35.22
+        },
+        {
+          "word": " get",
+          "start": 35.22,
+          "end": 35.4
+        },
+        {
+          "word": " industry",
+          "start": 35.4,
+          "end": 35.9
+        },
+        {
+          "word": " experience",
+          "start": 35.9,
+          "end": 36.98
+        },
+        {
+          "word": " as",
+          "start": 36.98,
+          "end": 37.86
+        },
+        {
+          "word": " part",
+          "start": 37.86,
+          "end": 38.14
+        },
+        {
+          "word": " of",
+          "start": 38.14,
+          "end": 38.42
+        },
+        {
+          "word": " my",
+          "start": 38.42,
+          "end": 38.58
+        },
+        {
+          "word": " school",
+          "start": 38.58,
+          "end": 38.86
+        },
+        {
+          "word": " project.",
+          "start": 38.86,
+          "end": 39.3
+        },
+        {
+          "word": " I",
+          "start": 40.5,
+          "end": 40.8
+        },
+        {
+          "word": " was",
+          "start": 40.8,
+          "end": 40.94
+        },
+        {
+          "word": " looking",
+          "start": 40.94,
+          "end": 41.26
+        },
+        {
+          "word": " into",
+          "start": 41.26,
+          "end": 41.62
+        },
+        {
+          "word": " computer,",
+          "start": 41.62,
+          "end": 42.18
+        },
+        {
+          "word": " hardware",
+          "start": 42.48,
+          "end": 42.7
+        },
+        {
+          "word": " and",
+          "start": 42.7,
+          "end": 43.36
+        },
+        {
+          "word": " software",
+          "start": 43.36,
+          "end": 43.68
+        },
+        {
+          "word": " issues",
+          "start": 43.68,
+          "end": 44.38
+        },
+        {
+          "word": " including",
+          "start": 44.38,
+          "end": 45.02
+        },
+        {
+          "word": " installation",
+          "start": 45.02,
+          "end": 45.9
+        },
+        {
+          "word": " and",
+          "start": 45.9,
+          "end": 46.269999999999996
+        },
+        {
+          "word": " upgrading.",
+          "start": 46.76,
+          "end": 47.12
+        },
+        {
+          "word": " I",
+          "start": 49.08,
+          "end": 49.42
+        },
+        {
+          "word": " have",
+          "start": 49.42,
+          "end": 49.58
+        },
+        {
+          "word": " also",
+          "start": 49.58,
+          "end": 49.94
+        },
+        {
+          "word": " worked",
+          "start": 49.94,
+          "end": 50.26
+        },
+        {
+          "word": " as",
+          "start": 50.26,
+          "end": 50.6
+        },
+        {
+          "word": " a",
+          "start": 50.6,
+          "end": 50.76
+        },
+        {
+          "word": " physical",
+          "start": 50.76,
+          "end": 51.0
+        },
+        {
+          "word": " trainer",
+          "start": 51.0,
+          "end": 51.56
+        },
+        {
+          "word": " at",
+          "start": 51.56,
+          "end": 52.32
+        },
+        {
+          "word": " Fatihav",
+          "start": 52.32,
+          "end": 52.84
+        },
+        {
+          "word": " Familia",
+          "start": 52.84,
+          "end": 53.18
+        },
+        {
+          "word": " Dog",
+          "start": 53.18,
+          "end": 53.56
+        },
+        {
+          "word": " Him",
+          "start": 53.56,
+          "end": 53.72
+        },
+        {
+          "word": " where",
+          "start": 53.72,
+          "end": 54.48
+        },
+        {
+          "word": " I",
+          "start": 54.48,
+          "end": 54.7
+        },
+        {
+          "word": " did",
+          "start": 54.7,
+          "end": 54.94
+        },
+        {
+          "word": " outdoor",
+          "start": 54.94,
+          "end": 55.32
+        },
+        {
+          "word": " and",
+          "start": 55.32,
+          "end": 55.86
+        },
+        {
+          "word": " indoor",
+          "start": 55.86,
+          "end": 56.36
+        },
+        {
+          "word": " physical",
+          "start": 56.36,
+          "end": 56.68
+        },
+        {
+          "word": " activities",
+          "start": 56.68,
+          "end": 57.68
+        },
+        {
+          "word": " with",
+          "start": 57.68,
+          "end": 58.12
+        },
+        {
+          "word": " kids",
+          "start": 58.12,
+          "end": 58.54
+        },
+        {
+          "word": " in",
+          "start": 58.54,
+          "end": 59.16
+        },
+        {
+          "word": " age",
+          "start": 59.16,
+          "end": 59.42
+        },
+        {
+          "word": " 3",
+          "start": 59.42,
+          "end": 59.72
+        },
+        {
+          "word": " to",
+          "start": 59.72,
+          "end": 59.72
+        },
+        {
+          "word": " 9.",
+          "start": 59.72,
+          "end": 60.84
+        },
+        {
+          "word": " Along",
+          "start": 61.9,
+          "end": 62.46
+        },
+        {
+          "word": " with",
+          "start": 62.46,
+          "end": 62.94
+        },
+        {
+          "word": " my",
+          "start": 62.94,
+          "end": 63.14
+        },
+        {
+          "word": " studies,",
+          "start": 63.14,
+          "end": 63.54
+        },
+        {
+          "word": " I'm",
+          "start": 63.94,
+          "end": 64.14
+        },
+        {
+          "word": " working",
+          "start": 64.14,
+          "end": 64.42
+        },
+        {
+          "word": " with",
+          "start": 64.42,
+          "end": 64.78
+        },
+        {
+          "word": " Blockchain",
+          "start": 64.78,
+          "end": 65.24
+        },
+        {
+          "word": " Technology",
+          "start": 65.24,
+          "end": 65.78
+        },
+        {
+          "word": " at",
+          "start": 65.78,
+          "end": 66.8
+        },
+        {
+          "word": " Cornet",
+          "start": 66.8,
+          "end": 67.34
+        },
+        {
+          "word": " AB.",
+          "start": 67.34,
+          "end": 67.66
+        },
+        {
+          "word": " Cornet",
+          "start": 68.87,
+          "end": 69.36
+        },
+        {
+          "word": " AB",
+          "start": 69.36,
+          "end": 69.76
+        },
+        {
+          "word": " is",
+          "start": 69.76,
+          "end": 70.16
+        },
+        {
+          "word": " also",
+          "start": 70.16,
+          "end": 70.4
+        },
+        {
+          "word": " known",
+          "start": 70.4,
+          "end": 70.88
+        },
+        {
+          "word": " with",
+          "start": 70.88,
+          "end": 71.16
+        },
+        {
+          "word": " identities",
+          "start": 71.16,
+          "end": 71.76
+        },
+        {
+          "word": " as",
+          "start": 71.76,
+          "end": 72.42
+        },
+        {
+          "word": " Sweden",
+          "start": 72.42,
+          "end": 72.78
+        },
+        {
+          "word": " Cornet",
+          "start": 72.78,
+          "end": 73.52
+        },
+        {
+          "word": " and",
+          "start": 73.52,
+          "end": 74.02
+        },
+        {
+          "word": " EOS",
+          "start": 74.02,
+          "end": 74.56
+        },
+        {
+          "word": " Telos",
+          "start": 74.56,
+          "end": 75.3
+        },
+        {
+          "word": " Sweden.",
+          "start": 75.3,
+          "end": 75.62
+        },
+        {
+          "word": " I'm",
+          "start": 76.79,
+          "end": 77.28
+        },
+        {
+          "word": " taking",
+          "start": 77.28,
+          "end": 77.52
+        },
+        {
+          "word": " care",
+          "start": 77.52,
+          "end": 77.96
+        },
+        {
+          "word": " of",
+          "start": 77.96,
+          "end": 78.4
+        },
+        {
+          "word": " social",
+          "start": 78.4,
+          "end": 78.62
+        },
+        {
+          "word": " media,",
+          "start": 78.62,
+          "end": 79.16
+        },
+        {
+          "word": " collaboration,",
+          "start": 79.16,
+          "end": 79.66
+        },
+        {
+          "word": " communication",
+          "start": 81.18,
+          "end": 81.18
+        },
+        {
+          "word": " activities",
+          "start": 81.18,
+          "end": 82.2
+        },
+        {
+          "word": " in",
+          "start": 82.2,
+          "end": 82.66
+        },
+        {
+          "word": " Cornet.",
+          "start": 82.66,
+          "end": 83.16
+        },
+        {
+          "word": " I'm",
+          "start": 84.56,
+          "end": 85.2
+        },
+        {
+          "word": " also",
+          "start": 85.2,
+          "end": 85.34
+        },
+        {
+          "word": " making",
+          "start": 85.34,
+          "end": 85.86
+        },
+        {
+          "word": " my",
+          "start": 85.86,
+          "end": 86.22
+        },
+        {
+          "word": " own",
+          "start": 86.22,
+          "end": 86.46
+        },
+        {
+          "word": " short",
+          "start": 86.46,
+          "end": 86.72
+        },
+        {
+          "word": " videos",
+          "start": 86.72,
+          "end": 87.2
+        },
+        {
+          "word": " on",
+          "start": 87.2,
+          "end": 87.78
+        },
+        {
+          "word": " different",
+          "start": 87.78,
+          "end": 88.06
+        },
+        {
+          "word": " crypto",
+          "start": 88.06,
+          "end": 88.8
+        },
+        {
+          "word": " and",
+          "start": 88.8,
+          "end": 89.44
+        },
+        {
+          "word": " blockchain",
+          "start": 89.44,
+          "end": 89.72
+        },
+        {
+          "word": " topics",
+          "start": 89.72,
+          "end": 90.42
+        },
+        {
+          "word": " and",
+          "start": 90.42,
+          "end": 91.34
+        },
+        {
+          "word": " in",
+          "start": 91.34,
+          "end": 91.52
+        },
+        {
+          "word": " parallel",
+          "start": 91.52,
+          "end": 91.84
+        },
+        {
+          "word": " work",
+          "start": 91.84,
+          "end": 92.4
+        },
+        {
+          "word": " with",
+          "start": 92.4,
+          "end": 92.78
+        },
+        {
+          "word": " their",
+          "start": 92.78,
+          "end": 93.0
+        },
+        {
+          "word": " web",
+          "start": 93.0,
+          "end": 93.16
+        },
+        {
+          "word": " development.",
+          "start": 93.16,
+          "end": 93.68
+        },
+        {
+          "word": " Here",
+          "start": 95.16,
+          "end": 95.48
+        },
+        {
+          "word": " is",
+          "start": 95.48,
+          "end": 95.66
+        },
+        {
+          "word": " the",
+          "start": 95.66,
+          "end": 95.78
+        },
+        {
+          "word": " link",
+          "start": 95.78,
+          "end": 96.02
+        },
+        {
+          "word": " of",
+          "start": 96.02,
+          "end": 96.3
+        },
+        {
+          "word": " the",
+          "start": 96.3,
+          "end": 96.5
+        },
+        {
+          "word": " video",
+          "start": 96.5,
+          "end": 96.86
+        },
+        {
+          "word": " that",
+          "start": 96.86,
+          "end": 97.26
+        },
+        {
+          "word": " I",
+          "start": 97.26,
+          "end": 97.5
+        },
+        {
+          "word": " made",
+          "start": 97.5,
+          "end": 97.82
+        },
+        {
+          "word": " and",
+          "start": 97.82,
+          "end": 98.28
+        },
+        {
+          "word": " edit",
+          "start": 98.28,
+          "end": 98.56
+        },
+        {
+          "word": " for",
+          "start": 98.56,
+          "end": 98.84
+        },
+        {
+          "word": " others.",
+          "start": 98.84,
+          "end": 99.14
+        },
+        {
+          "word": " In",
+          "start": 100.94,
+          "end": 101.26
+        },
+        {
+          "word": " my",
+          "start": 101.26,
+          "end": 101.4
+        },
+        {
+          "word": " part",
+          "start": 101.4,
+          "end": 101.62
+        },
+        {
+          "word": " time",
+          "start": 101.62,
+          "end": 102.02
+        },
+        {
+          "word": " I",
+          "start": 102.02,
+          "end": 102.34
+        },
+        {
+          "word": " work",
+          "start": 102.34,
+          "end": 102.58
+        },
+        {
+          "word": " as",
+          "start": 102.58,
+          "end": 102.9
+        },
+        {
+          "word": " a",
+          "start": 102.9,
+          "end": 103.0
+        },
+        {
+          "word": " video",
+          "start": 103.0,
+          "end": 103.2
+        },
+        {
+          "word": " editor.",
+          "start": 103.2,
+          "end": 103.64
+        },
+        {
+          "word": " If",
+          "start": 104.46,
+          "end": 104.56
+        },
+        {
+          "word": " you",
+          "start": 104.56,
+          "end": 104.72
+        },
+        {
+          "word": " interest",
+          "start": 104.72,
+          "end": 105.06
+        },
+        {
+          "word": " to",
+          "start": 105.06,
+          "end": 105.44
+        },
+        {
+          "word": " know",
+          "start": 105.44,
+          "end": 105.62
+        },
+        {
+          "word": " more",
+          "start": 105.62,
+          "end": 105.84
+        },
+        {
+          "word": " about",
+          "start": 105.84,
+          "end": 106.14
+        },
+        {
+          "word": " that,",
+          "start": 106.14,
+          "end": 106.46
+        },
+        {
+          "word": " here",
+          "start": 106.82,
+          "end": 107.06
+        },
+        {
+          "word": " is",
+          "start": 107.06,
+          "end": 107.34
+        },
+        {
+          "word": " my",
+          "start": 107.34,
+          "end": 107.52
+        },
+        {
+          "word": " fiberlink",
+          "start": 107.52,
+          "end": 108.16
+        }
+      ]
+    },
+    "video_score": 0.22879932969808578,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "innovation",
+      "game development",
+      "blockchain",
+      "service desk",
+      "collaboration",
+      "communication"
+    ],
+    "transcript_years_experience": 3.0,
+    "transcript_education_level": null
+  },
+  {
+    "youtube_id": "trfJlgMCRiw",
+    "creator": "Stephanie Plumeri",
+    "job_title": "Digital Marketing Manager",
+    "duration_s": 114,
+    "s3_key": "videos/demo-seed/trfJlgMCRiw.mp4",
+    "transcript": "Hi, I'm Stephanie Plumeri. This is my resume and this is a cupcake. I Made the resume. I also made the cupcake Now I know you're wondering what does the resume have to do with the cupcake? Cupcake consists of two components cake and frosting. They're very different in terms of recipe and consistency But most people agree that they work well together. Oh, no, no, no, no, not again. This is mine. This is mine I have found a way to pair my experience and degrees in communications and economics in a way that blends well I'm able to combine my data analysis and presentation skills with years of creative experience with the Adobe Creative Suite HTML CSS final cut pro and JavaScript to serve as a liaison between technical business analysis and creative production I've definitely tasted a lot of flavors in the marketing and design industry from integrating Facebook apps for corporate clients To managing staff and laying out the Muamburg College yearbook while serving as its editor-in-chief for two years My analytical work falls into the digital realm with my research on how online user reviews impact box office revenues for motion pictures I Also have a passion for emerging media technologies On top of all of that I bring an excellent work ethic and attention to detail to every project that I take on My resume has much more detail of my experience. So take a look when you're ready But don't forget the cupcake and don't forget me Stephanie Pomeri Hire me and I will bake you a cupcake. I will bake you a whole batch of cupcakes You",
+    "transcript_confidence": 0.9587,
+    "audio_features": {
+      "mfcc_mean": [
+        -428.1460266113281,
+        101.95287322998047,
+        -34.8125114440918,
+        -10.473456382751465,
+        -22.10767364501953,
+        -22.096094131469727,
+        -15.547922134399414,
+        -6.3072590827941895,
+        -7.445115566253662,
+        -7.377896308898926,
+        -8.486632347106934,
+        -7.996723175048828,
+        -4.856774806976318
+      ],
+      "pitch_mean": 258.3449004136559,
+      "pitch_std": 91.08734618754076,
+      "speaking_rate": 0.48992725237828766,
+      "pause_ratio": 0.5100727476217124,
+      "snr_db": 19.573563172250367,
+      "transcript_sim": 0.3558715879917145,
+      "comm_clarity": 0.5,
+      "content_coverage": 0.0,
+      "pace_score": 0.0,
+      "fluency_score": 1.0,
+      "articulation_score": 0.5,
+      "filler_rate": 0.0,
+      "wpm": 275.0,
+      "word_timestamps": [
+        {
+          "word": " Hi,",
+          "start": 0.0,
+          "end": 0.56
+        },
+        {
+          "word": " I'm",
+          "start": 0.88,
+          "end": 1.18
+        },
+        {
+          "word": " Stephanie",
+          "start": 1.18,
+          "end": 1.4
+        },
+        {
+          "word": " Plumeri.",
+          "start": 1.4,
+          "end": 2.04
+        },
+        {
+          "word": " This",
+          "start": 2.32,
+          "end": 2.66
+        },
+        {
+          "word": " is",
+          "start": 2.66,
+          "end": 2.78
+        },
+        {
+          "word": " my",
+          "start": 2.78,
+          "end": 2.92
+        },
+        {
+          "word": " resume",
+          "start": 2.92,
+          "end": 3.16
+        },
+        {
+          "word": " and",
+          "start": 3.16,
+          "end": 3.88
+        },
+        {
+          "word": " this",
+          "start": 3.88,
+          "end": 4.06
+        },
+        {
+          "word": " is",
+          "start": 4.06,
+          "end": 4.16
+        },
+        {
+          "word": " a",
+          "start": 4.16,
+          "end": 4.3
+        },
+        {
+          "word": " cupcake.",
+          "start": 4.3,
+          "end": 4.64
+        },
+        {
+          "word": " I",
+          "start": 5.34,
+          "end": 5.88
+        },
+        {
+          "word": " Made",
+          "start": 5.88,
+          "end": 6.0
+        },
+        {
+          "word": " the",
+          "start": 6.0,
+          "end": 6.16
+        },
+        {
+          "word": " resume.",
+          "start": 6.16,
+          "end": 6.38
+        },
+        {
+          "word": " I",
+          "start": 7.06,
+          "end": 7.24
+        },
+        {
+          "word": " also",
+          "start": 7.24,
+          "end": 7.66
+        },
+        {
+          "word": " made",
+          "start": 7.66,
+          "end": 8.08
+        },
+        {
+          "word": " the",
+          "start": 8.08,
+          "end": 8.24
+        },
+        {
+          "word": " cupcake",
+          "start": 8.24,
+          "end": 8.58
+        },
+        {
+          "word": " Now",
+          "start": 10.539999999999997,
+          "end": 11.079999999999998
+        },
+        {
+          "word": " I",
+          "start": 11.079999999999998,
+          "end": 11.62
+        },
+        {
+          "word": " know",
+          "start": 11.62,
+          "end": 11.78
+        },
+        {
+          "word": " you're",
+          "start": 11.78,
+          "end": 12.0
+        },
+        {
+          "word": " wondering",
+          "start": 12.0,
+          "end": 12.26
+        },
+        {
+          "word": " what",
+          "start": 12.26,
+          "end": 12.82
+        },
+        {
+          "word": " does",
+          "start": 12.82,
+          "end": 12.96
+        },
+        {
+          "word": " the",
+          "start": 12.96,
+          "end": 13.1
+        },
+        {
+          "word": " resume",
+          "start": 13.1,
+          "end": 13.3
+        },
+        {
+          "word": " have",
+          "start": 13.3,
+          "end": 13.98
+        },
+        {
+          "word": " to",
+          "start": 13.98,
+          "end": 14.18
+        },
+        {
+          "word": " do",
+          "start": 14.18,
+          "end": 14.3
+        },
+        {
+          "word": " with",
+          "start": 14.3,
+          "end": 14.42
+        },
+        {
+          "word": " the",
+          "start": 14.42,
+          "end": 14.5
+        },
+        {
+          "word": " cupcake?",
+          "start": 14.5,
+          "end": 14.92
+        },
+        {
+          "word": " Cupcake",
+          "start": 15.46,
+          "end": 16.0
+        },
+        {
+          "word": " consists",
+          "start": 16.0,
+          "end": 16.26
+        },
+        {
+          "word": " of",
+          "start": 16.26,
+          "end": 16.64
+        },
+        {
+          "word": " two",
+          "start": 16.64,
+          "end": 16.94
+        },
+        {
+          "word": " components",
+          "start": 16.94,
+          "end": 17.3
+        },
+        {
+          "word": " cake",
+          "start": 17.3,
+          "end": 17.84
+        },
+        {
+          "word": " and",
+          "start": 17.84,
+          "end": 18.26
+        },
+        {
+          "word": " frosting.",
+          "start": 18.26,
+          "end": 18.78
+        },
+        {
+          "word": " They're",
+          "start": 19.14,
+          "end": 19.58
+        },
+        {
+          "word": " very",
+          "start": 19.58,
+          "end": 19.96
+        },
+        {
+          "word": " different",
+          "start": 19.96,
+          "end": 20.54
+        },
+        {
+          "word": " in",
+          "start": 20.54,
+          "end": 20.88
+        },
+        {
+          "word": " terms",
+          "start": 20.88,
+          "end": 21.1
+        },
+        {
+          "word": " of",
+          "start": 21.1,
+          "end": 21.36
+        },
+        {
+          "word": " recipe",
+          "start": 21.36,
+          "end": 21.7
+        },
+        {
+          "word": " and",
+          "start": 21.7,
+          "end": 22.04
+        },
+        {
+          "word": " consistency",
+          "start": 22.04,
+          "end": 22.42
+        },
+        {
+          "word": " But",
+          "start": 23.039999999999996,
+          "end": 23.58
+        },
+        {
+          "word": " most",
+          "start": 23.58,
+          "end": 23.94
+        },
+        {
+          "word": " people",
+          "start": 23.94,
+          "end": 24.4
+        },
+        {
+          "word": " agree",
+          "start": 24.4,
+          "end": 24.72
+        },
+        {
+          "word": " that",
+          "start": 24.72,
+          "end": 24.96
+        },
+        {
+          "word": " they",
+          "start": 24.96,
+          "end": 25.12
+        },
+        {
+          "word": " work",
+          "start": 25.12,
+          "end": 25.34
+        },
+        {
+          "word": " well",
+          "start": 25.34,
+          "end": 25.58
+        },
+        {
+          "word": " together.",
+          "start": 25.58,
+          "end": 25.94
+        },
+        {
+          "word": " Oh,",
+          "start": 26.36,
+          "end": 26.58
+        },
+        {
+          "word": " no,",
+          "start": 26.8,
+          "end": 26.8
+        },
+        {
+          "word": " no,",
+          "start": 27.04,
+          "end": 27.04
+        },
+        {
+          "word": " no,",
+          "start": 27.32,
+          "end": 27.32
+        },
+        {
+          "word": " no,",
+          "start": 27.44,
+          "end": 27.44
+        },
+        {
+          "word": " not",
+          "start": 27.7,
+          "end": 27.72
+        },
+        {
+          "word": " again.",
+          "start": 27.72,
+          "end": 27.92
+        },
+        {
+          "word": " This",
+          "start": 28.16,
+          "end": 28.24
+        },
+        {
+          "word": " is",
+          "start": 28.24,
+          "end": 28.32
+        },
+        {
+          "word": " mine.",
+          "start": 28.32,
+          "end": 28.48
+        },
+        {
+          "word": " This",
+          "start": 28.78,
+          "end": 28.82
+        },
+        {
+          "word": " is",
+          "start": 28.82,
+          "end": 28.92
+        },
+        {
+          "word": " mine",
+          "start": 28.92,
+          "end": 29.06
+        },
+        {
+          "word": " I",
+          "start": 29.779999999999998,
+          "end": 30.4
+        },
+        {
+          "word": " have",
+          "start": 30.4,
+          "end": 30.6
+        },
+        {
+          "word": " found",
+          "start": 30.6,
+          "end": 30.82
+        },
+        {
+          "word": " a",
+          "start": 30.82,
+          "end": 30.94
+        },
+        {
+          "word": " way",
+          "start": 30.94,
+          "end": 31.16
+        },
+        {
+          "word": " to",
+          "start": 31.16,
+          "end": 31.5
+        },
+        {
+          "word": " pair",
+          "start": 31.5,
+          "end": 31.68
+        },
+        {
+          "word": " my",
+          "start": 31.68,
+          "end": 31.88
+        },
+        {
+          "word": " experience",
+          "start": 31.88,
+          "end": 32.5
+        },
+        {
+          "word": " and",
+          "start": 32.5,
+          "end": 32.76
+        },
+        {
+          "word": " degrees",
+          "start": 32.76,
+          "end": 33.06
+        },
+        {
+          "word": " in",
+          "start": 33.06,
+          "end": 33.44
+        },
+        {
+          "word": " communications",
+          "start": 33.44,
+          "end": 33.94
+        },
+        {
+          "word": " and",
+          "start": 33.94,
+          "end": 34.38
+        },
+        {
+          "word": " economics",
+          "start": 34.38,
+          "end": 34.78
+        },
+        {
+          "word": " in",
+          "start": 34.78,
+          "end": 35.2
+        },
+        {
+          "word": " a",
+          "start": 35.2,
+          "end": 35.26
+        },
+        {
+          "word": " way",
+          "start": 35.26,
+          "end": 35.42
+        },
+        {
+          "word": " that",
+          "start": 35.42,
+          "end": 35.56
+        },
+        {
+          "word": " blends",
+          "start": 35.56,
+          "end": 35.74
+        },
+        {
+          "word": " well",
+          "start": 35.74,
+          "end": 36.08
+        },
+        {
+          "word": " I'm",
+          "start": 36.08,
+          "end": 37.02
+        },
+        {
+          "word": " able",
+          "start": 37.02,
+          "end": 37.38
+        },
+        {
+          "word": " to",
+          "start": 37.38,
+          "end": 37.66
+        },
+        {
+          "word": " combine",
+          "start": 37.66,
+          "end": 38.06
+        },
+        {
+          "word": " my",
+          "start": 38.06,
+          "end": 38.48
+        },
+        {
+          "word": " data",
+          "start": 38.48,
+          "end": 38.84
+        },
+        {
+          "word": " analysis",
+          "start": 38.84,
+          "end": 39.42
+        },
+        {
+          "word": " and",
+          "start": 39.42,
+          "end": 39.82
+        },
+        {
+          "word": " presentation",
+          "start": 39.82,
+          "end": 40.18
+        },
+        {
+          "word": " skills",
+          "start": 40.18,
+          "end": 40.9
+        },
+        {
+          "word": " with",
+          "start": 40.9,
+          "end": 41.54
+        },
+        {
+          "word": " years",
+          "start": 41.54,
+          "end": 41.74
+        },
+        {
+          "word": " of",
+          "start": 41.74,
+          "end": 41.98
+        },
+        {
+          "word": " creative",
+          "start": 41.98,
+          "end": 42.3
+        },
+        {
+          "word": " experience",
+          "start": 42.3,
+          "end": 42.92
+        },
+        {
+          "word": " with",
+          "start": 42.92,
+          "end": 43.36
+        },
+        {
+          "word": " the",
+          "start": 43.36,
+          "end": 43.6
+        },
+        {
+          "word": " Adobe",
+          "start": 43.6,
+          "end": 43.84
+        },
+        {
+          "word": " Creative",
+          "start": 43.84,
+          "end": 44.14
+        },
+        {
+          "word": " Suite",
+          "start": 44.14,
+          "end": 44.58
+        },
+        {
+          "word": " HTML",
+          "start": 44.9,
+          "end": 45.26
+        },
+        {
+          "word": " CSS",
+          "start": 45.26,
+          "end": 46.34
+        },
+        {
+          "word": " final",
+          "start": 46.34,
+          "end": 47.0
+        },
+        {
+          "word": " cut",
+          "start": 47.0,
+          "end": 47.22
+        },
+        {
+          "word": " pro",
+          "start": 47.22,
+          "end": 47.5
+        },
+        {
+          "word": " and",
+          "start": 47.5,
+          "end": 48.14
+        },
+        {
+          "word": " JavaScript",
+          "start": 48.14,
+          "end": 48.52
+        },
+        {
+          "word": " to",
+          "start": 48.52,
+          "end": 49.34
+        },
+        {
+          "word": " serve",
+          "start": 49.34,
+          "end": 49.52
+        },
+        {
+          "word": " as",
+          "start": 49.52,
+          "end": 49.68
+        },
+        {
+          "word": " a",
+          "start": 49.68,
+          "end": 49.72
+        },
+        {
+          "word": " liaison",
+          "start": 49.72,
+          "end": 50.16
+        },
+        {
+          "word": " between",
+          "start": 50.16,
+          "end": 50.5
+        },
+        {
+          "word": " technical",
+          "start": 50.5,
+          "end": 51.06
+        },
+        {
+          "word": " business",
+          "start": 51.06,
+          "end": 51.38
+        },
+        {
+          "word": " analysis",
+          "start": 51.38,
+          "end": 51.74
+        },
+        {
+          "word": " and",
+          "start": 51.74,
+          "end": 52.46
+        },
+        {
+          "word": " creative",
+          "start": 52.46,
+          "end": 52.76
+        },
+        {
+          "word": " production",
+          "start": 52.76,
+          "end": 53.24
+        },
+        {
+          "word": " I've",
+          "start": 53.88,
+          "end": 54.46
+        },
+        {
+          "word": " definitely",
+          "start": 54.46,
+          "end": 54.78
+        },
+        {
+          "word": " tasted",
+          "start": 54.78,
+          "end": 55.2
+        },
+        {
+          "word": " a",
+          "start": 55.2,
+          "end": 55.46
+        },
+        {
+          "word": " lot",
+          "start": 55.46,
+          "end": 55.68
+        },
+        {
+          "word": " of",
+          "start": 55.68,
+          "end": 55.82
+        },
+        {
+          "word": " flavors",
+          "start": 55.82,
+          "end": 56.08
+        },
+        {
+          "word": " in",
+          "start": 56.08,
+          "end": 56.4
+        },
+        {
+          "word": " the",
+          "start": 56.4,
+          "end": 56.46
+        },
+        {
+          "word": " marketing",
+          "start": 56.46,
+          "end": 56.8
+        },
+        {
+          "word": " and",
+          "start": 56.8,
+          "end": 57.02
+        },
+        {
+          "word": " design",
+          "start": 57.02,
+          "end": 57.3
+        },
+        {
+          "word": " industry",
+          "start": 57.3,
+          "end": 57.82
+        },
+        {
+          "word": " from",
+          "start": 57.82,
+          "end": 58.38
+        },
+        {
+          "word": " integrating",
+          "start": 58.38,
+          "end": 58.92
+        },
+        {
+          "word": " Facebook",
+          "start": 58.92,
+          "end": 59.48
+        },
+        {
+          "word": " apps",
+          "start": 59.48,
+          "end": 59.84
+        },
+        {
+          "word": " for",
+          "start": 59.84,
+          "end": 60.16
+        },
+        {
+          "word": " corporate",
+          "start": 60.16,
+          "end": 60.38
+        },
+        {
+          "word": " clients",
+          "start": 60.38,
+          "end": 60.92
+        },
+        {
+          "word": " To",
+          "start": 60.92,
+          "end": 61.62
+        },
+        {
+          "word": " managing",
+          "start": 61.62,
+          "end": 61.82
+        },
+        {
+          "word": " staff",
+          "start": 61.82,
+          "end": 62.34
+        },
+        {
+          "word": " and",
+          "start": 62.34,
+          "end": 62.66
+        },
+        {
+          "word": " laying",
+          "start": 62.66,
+          "end": 62.88
+        },
+        {
+          "word": " out",
+          "start": 62.88,
+          "end": 63.08
+        },
+        {
+          "word": " the",
+          "start": 63.08,
+          "end": 63.2
+        },
+        {
+          "word": " Muamburg",
+          "start": 63.2,
+          "end": 63.58
+        },
+        {
+          "word": " College",
+          "start": 63.58,
+          "end": 63.82
+        },
+        {
+          "word": " yearbook",
+          "start": 63.82,
+          "end": 64.22
+        },
+        {
+          "word": " while",
+          "start": 64.22,
+          "end": 64.44
+        },
+        {
+          "word": " serving",
+          "start": 64.44,
+          "end": 64.66
+        },
+        {
+          "word": " as",
+          "start": 64.66,
+          "end": 64.88
+        },
+        {
+          "word": " its",
+          "start": 64.88,
+          "end": 64.98
+        },
+        {
+          "word": " editor",
+          "start": 64.98,
+          "end": 65.28
+        },
+        {
+          "word": "-in",
+          "start": 65.28,
+          "end": 65.52
+        },
+        {
+          "word": "-chief",
+          "start": 65.52,
+          "end": 65.7
+        },
+        {
+          "word": " for",
+          "start": 65.7,
+          "end": 65.96
+        },
+        {
+          "word": " two",
+          "start": 65.96,
+          "end": 66.16
+        },
+        {
+          "word": " years",
+          "start": 66.16,
+          "end": 66.54
+        },
+        {
+          "word": " My",
+          "start": 66.54,
+          "end": 67.38
+        },
+        {
+          "word": " analytical",
+          "start": 67.38,
+          "end": 67.78
+        },
+        {
+          "word": " work",
+          "start": 67.78,
+          "end": 68.52
+        },
+        {
+          "word": " falls",
+          "start": 68.52,
+          "end": 68.82
+        },
+        {
+          "word": " into",
+          "start": 68.82,
+          "end": 69.04
+        },
+        {
+          "word": " the",
+          "start": 69.04,
+          "end": 69.2
+        },
+        {
+          "word": " digital",
+          "start": 69.2,
+          "end": 69.52
+        },
+        {
+          "word": " realm",
+          "start": 69.52,
+          "end": 69.86
+        },
+        {
+          "word": " with",
+          "start": 69.86,
+          "end": 70.4
+        },
+        {
+          "word": " my",
+          "start": 70.4,
+          "end": 70.56
+        },
+        {
+          "word": " research",
+          "start": 70.56,
+          "end": 70.9
+        },
+        {
+          "word": " on",
+          "start": 70.9,
+          "end": 71.24
+        },
+        {
+          "word": " how",
+          "start": 71.24,
+          "end": 71.48
+        },
+        {
+          "word": " online",
+          "start": 71.48,
+          "end": 71.8
+        },
+        {
+          "word": " user",
+          "start": 71.8,
+          "end": 72.24
+        },
+        {
+          "word": " reviews",
+          "start": 72.24,
+          "end": 72.54
+        },
+        {
+          "word": " impact",
+          "start": 72.54,
+          "end": 73.0
+        },
+        {
+          "word": " box",
+          "start": 73.0,
+          "end": 73.32
+        },
+        {
+          "word": " office",
+          "start": 73.32,
+          "end": 73.82
+        },
+        {
+          "word": " revenues",
+          "start": 74.28,
+          "end": 74.6
+        },
+        {
+          "word": " for",
+          "start": 74.6,
+          "end": 75.1
+        },
+        {
+          "word": " motion",
+          "start": 75.1,
+          "end": 75.3
+        },
+        {
+          "word": " pictures",
+          "start": 75.3,
+          "end": 75.72
+        },
+        {
+          "word": " I",
+          "start": 75.72,
+          "end": 76.36
+        }
+      ]
+    },
+    "video_score": 0.32793579399585726,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "data analysis",
+      "presentation skills",
+      "adobe creative suite",
+      "html",
+      "css",
+      "final cut pro",
+      "javascript",
+      "business analysis",
+      "attention to detail"
+    ],
+    "transcript_years_experience": 0.0,
+    "transcript_education_level": null
+  },
+  {
+    "youtube_id": "2NWH0566dsI",
+    "creator": "Nur Hidayah Sazali",
+    "job_title": "Registered Nurse",
+    "duration_s": 93,
+    "s3_key": "videos/demo-seed/2NWH0566dsI.mp4",
+    "transcript": "Assalaamu Alaikum and hello! My name is Nuri Deiassizati. I'm 22 years old and then come from Pajulaya. I am an undergraduate tesla student from Kulia of Education at International Islamic University Malaysia. My passion is to want some photography, graphic design, video editing and painting. I am also capable of using Adobe Photoshop, Adobe Active Impact, Adobe Premiere Pro and also Sunny Vectors. I am created, hardworking and vicious, well-organized and ready to learn anything new. I have designed many cool series and videos for clubs and also other organizations. I have also done many things on personal requests. Thank you for watching!",
+    "transcript_confidence": 0.6755,
+    "audio_features": {
+      "mfcc_mean": [
+        -275.8481140136719,
+        103.8500747680664,
+        -1.0457922220230103,
+        18.576622009277344,
+        9.398924827575684,
+        13.580964088439941,
+        4.115739345550537,
+        9.762832641601562,
+        5.650026798248291,
+        7.421338081359863,
+        2.531263828277588,
+        6.988228797912598,
+        6.51270055770874
+      ],
+      "pitch_mean": 151.01531550489278,
+      "pitch_std": 98.79721347322929,
+      "speaking_rate": 0.7851239669421488,
+      "pause_ratio": 0.2148760330578512,
+      "snr_db": 13.414179057823258,
+      "transcript_sim": 0.08732715249061584,
+      "comm_clarity": 0.7933333333333333,
+      "content_coverage": 0.0,
+      "pace_score": 0.7333,
+      "fluency_score": 1.0,
+      "articulation_score": 0.5,
+      "filler_rate": 0.0,
+      "wpm": 104.0,
+      "word_timestamps": [
+        {
+          "word": " Assalaamu",
+          "start": 0.0,
+          "end": 1.34
+        },
+        {
+          "word": " Alaikum",
+          "start": 1.34,
+          "end": 1.66
+        },
+        {
+          "word": " and",
+          "start": 1.66,
+          "end": 1.92
+        },
+        {
+          "word": " hello!",
+          "start": 1.92,
+          "end": 2.42
+        },
+        {
+          "word": " My",
+          "start": 3.08,
+          "end": 3.58
+        },
+        {
+          "word": " name",
+          "start": 3.58,
+          "end": 3.76
+        },
+        {
+          "word": " is",
+          "start": 3.76,
+          "end": 4.02
+        },
+        {
+          "word": " Nuri",
+          "start": 4.02,
+          "end": 4.3
+        },
+        {
+          "word": " Deiassizati.",
+          "start": 4.3,
+          "end": 4.98
+        },
+        {
+          "word": " I'm",
+          "start": 5.46,
+          "end": 5.72
+        },
+        {
+          "word": " 22",
+          "start": 5.72,
+          "end": 6.0
+        },
+        {
+          "word": " years",
+          "start": 6.0,
+          "end": 6.4
+        },
+        {
+          "word": " old",
+          "start": 6.4,
+          "end": 6.62
+        },
+        {
+          "word": " and",
+          "start": 6.62,
+          "end": 7.06
+        },
+        {
+          "word": " then",
+          "start": 7.06,
+          "end": 7.2
+        },
+        {
+          "word": " come",
+          "start": 7.2,
+          "end": 7.38
+        },
+        {
+          "word": " from",
+          "start": 7.38,
+          "end": 7.72
+        },
+        {
+          "word": " Pajulaya.",
+          "start": 7.72,
+          "end": 8.26
+        },
+        {
+          "word": " I",
+          "start": 9.68,
+          "end": 10.32
+        },
+        {
+          "word": " am",
+          "start": 10.32,
+          "end": 10.5
+        },
+        {
+          "word": " an",
+          "start": 10.5,
+          "end": 10.94
+        },
+        {
+          "word": " undergraduate",
+          "start": 10.94,
+          "end": 11.4
+        },
+        {
+          "word": " tesla",
+          "start": 11.4,
+          "end": 12.22
+        },
+        {
+          "word": " student",
+          "start": 12.22,
+          "end": 12.62
+        },
+        {
+          "word": " from",
+          "start": 12.62,
+          "end": 13.18
+        },
+        {
+          "word": " Kulia",
+          "start": 13.18,
+          "end": 13.52
+        },
+        {
+          "word": " of",
+          "start": 13.52,
+          "end": 13.92
+        },
+        {
+          "word": " Education",
+          "start": 13.92,
+          "end": 14.28
+        },
+        {
+          "word": " at",
+          "start": 14.28,
+          "end": 15.22
+        },
+        {
+          "word": " International",
+          "start": 15.22,
+          "end": 15.72
+        },
+        {
+          "word": " Islamic",
+          "start": 15.72,
+          "end": 16.86
+        },
+        {
+          "word": " University",
+          "start": 16.86,
+          "end": 17.74
+        },
+        {
+          "word": " Malaysia.",
+          "start": 17.74,
+          "end": 18.22
+        },
+        {
+          "word": " My",
+          "start": 19.06,
+          "end": 19.76
+        },
+        {
+          "word": " passion",
+          "start": 19.76,
+          "end": 20.2
+        },
+        {
+          "word": " is",
+          "start": 20.2,
+          "end": 20.54
+        },
+        {
+          "word": " to",
+          "start": 20.54,
+          "end": 20.74
+        },
+        {
+          "word": " want",
+          "start": 20.74,
+          "end": 20.96
+        },
+        {
+          "word": " some",
+          "start": 20.96,
+          "end": 21.16
+        },
+        {
+          "word": " photography,",
+          "start": 21.16,
+          "end": 21.66
+        },
+        {
+          "word": " graphic",
+          "start": 22.28,
+          "end": 22.36
+        },
+        {
+          "word": " design,",
+          "start": 22.36,
+          "end": 22.82
+        },
+        {
+          "word": " video",
+          "start": 23.3,
+          "end": 23.58
+        },
+        {
+          "word": " editing",
+          "start": 23.58,
+          "end": 23.9
+        },
+        {
+          "word": " and",
+          "start": 23.9,
+          "end": 24.52
+        },
+        {
+          "word": " painting.",
+          "start": 24.52,
+          "end": 25.12
+        },
+        {
+          "word": " I",
+          "start": 26.12,
+          "end": 26.76
+        },
+        {
+          "word": " am",
+          "start": 26.76,
+          "end": 27.0
+        },
+        {
+          "word": " also",
+          "start": 27.0,
+          "end": 27.16
+        },
+        {
+          "word": " capable",
+          "start": 27.16,
+          "end": 27.72
+        },
+        {
+          "word": " of",
+          "start": 27.72,
+          "end": 28.26
+        },
+        {
+          "word": " using",
+          "start": 28.26,
+          "end": 28.62
+        },
+        {
+          "word": " Adobe",
+          "start": 28.62,
+          "end": 28.88
+        },
+        {
+          "word": " Photoshop,",
+          "start": 28.88,
+          "end": 29.6
+        },
+        {
+          "word": " Adobe",
+          "start": 30.2,
+          "end": 30.4
+        },
+        {
+          "word": " Active",
+          "start": 30.4,
+          "end": 30.92
+        },
+        {
+          "word": " Impact,",
+          "start": 30.92,
+          "end": 31.22
+        },
+        {
+          "word": " Adobe",
+          "start": 31.8,
+          "end": 32.22
+        },
+        {
+          "word": " Premiere",
+          "start": 32.22,
+          "end": 32.6
+        },
+        {
+          "word": " Pro",
+          "start": 32.6,
+          "end": 33.08
+        },
+        {
+          "word": " and",
+          "start": 33.08,
+          "end": 33.52
+        },
+        {
+          "word": " also",
+          "start": 33.52,
+          "end": 33.9
+        },
+        {
+          "word": " Sunny",
+          "start": 33.9,
+          "end": 34.28
+        },
+        {
+          "word": " Vectors.",
+          "start": 34.28,
+          "end": 34.96
+        },
+        {
+          "word": " I",
+          "start": 35.92,
+          "end": 36.36
+        },
+        {
+          "word": " am",
+          "start": 36.36,
+          "end": 36.68
+        },
+        {
+          "word": " created,",
+          "start": 36.68,
+          "end": 37.36
+        },
+        {
+          "word": " hardworking",
+          "start": 38.38,
+          "end": 38.84
+        },
+        {
+          "word": " and",
+          "start": 38.84,
+          "end": 39.72
+        },
+        {
+          "word": " vicious,",
+          "start": 39.72,
+          "end": 40.12
+        },
+        {
+          "word": " well",
+          "start": 40.98,
+          "end": 41.06
+        },
+        {
+          "word": "-organized",
+          "start": 41.06,
+          "end": 41.52
+        },
+        {
+          "word": " and",
+          "start": 41.52,
+          "end": 42.2
+        },
+        {
+          "word": " ready",
+          "start": 42.2,
+          "end": 42.48
+        },
+        {
+          "word": " to",
+          "start": 42.48,
+          "end": 42.82
+        },
+        {
+          "word": " learn",
+          "start": 42.82,
+          "end": 43.04
+        },
+        {
+          "word": " anything",
+          "start": 43.04,
+          "end": 43.56
+        },
+        {
+          "word": " new.",
+          "start": 43.56,
+          "end": 44.0
+        },
+        {
+          "word": " I",
+          "start": 44.88,
+          "end": 45.6
+        },
+        {
+          "word": " have",
+          "start": 45.6,
+          "end": 45.8
+        },
+        {
+          "word": " designed",
+          "start": 45.8,
+          "end": 46.12
+        },
+        {
+          "word": " many",
+          "start": 46.12,
+          "end": 46.5
+        },
+        {
+          "word": " cool",
+          "start": 46.5,
+          "end": 46.76
+        },
+        {
+          "word": " series",
+          "start": 46.76,
+          "end": 47.0
+        },
+        {
+          "word": " and",
+          "start": 47.0,
+          "end": 47.3
+        },
+        {
+          "word": " videos",
+          "start": 47.3,
+          "end": 47.7
+        },
+        {
+          "word": " for",
+          "start": 47.7,
+          "end": 48.18
+        },
+        {
+          "word": " clubs",
+          "start": 48.18,
+          "end": 48.5
+        },
+        {
+          "word": " and",
+          "start": 48.5,
+          "end": 49.18
+        },
+        {
+          "word": " also",
+          "start": 49.18,
+          "end": 49.62
+        },
+        {
+          "word": " other",
+          "start": 49.62,
+          "end": 50.0
+        },
+        {
+          "word": " organizations.",
+          "start": 50.0,
+          "end": 50.8
+        },
+        {
+          "word": " I",
+          "start": 50.8,
+          "end": 51.72
+        },
+        {
+          "word": " have",
+          "start": 51.72,
+          "end": 51.88
+        },
+        {
+          "word": " also",
+          "start": 51.88,
+          "end": 52.06
+        },
+        {
+          "word": " done",
+          "start": 52.06,
+          "end": 52.34
+        },
+        {
+          "word": " many",
+          "start": 52.34,
+          "end": 52.6
+        },
+        {
+          "word": " things",
+          "start": 52.6,
+          "end": 53.16
+        },
+        {
+          "word": " on",
+          "start": 53.16,
+          "end": 53.5
+        },
+        {
+          "word": " personal",
+          "start": 53.5,
+          "end": 53.74
+        },
+        {
+          "word": " requests.",
+          "start": 53.74,
+          "end": 54.34
+        },
+        {
+          "word": " Thank",
+          "start": 90.16,
+          "end": 91.24
+        },
+        {
+          "word": " you",
+          "start": 91.24,
+          "end": 92.32
+        },
+        {
+          "word": " for",
+          "start": 92.32,
+          "end": 92.86
+        },
+        {
+          "word": " watching!",
+          "start": 92.86,
+          "end": 92.88
+        }
+      ]
+    },
+    "video_score": 0.2816635762453079,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "photography",
+      "graphic design",
+      "video editing",
+      "adobe photoshop",
+      "adobe premiere pro"
+    ],
+    "transcript_years_experience": 0.0,
+    "transcript_education_level": null
+  },
+  {
+    "youtube_id": "7h6WRTqEo20",
+    "creator": "Nurul Shakirah Norhan",
+    "job_title": "HR Business Partner",
+    "duration_s": 76,
+    "s3_key": "videos/demo-seed/7h6WRTqEo20.mp4",
+    "transcript": "As Salaam wa Alaykum and hello everyone! My name is Nuro Shakira Minton Arhan. I was born in 28th of April 1999. Currently, I entered 21 years old and I came from Johor. I am an undergraduate student majoring in Arabic for International Communication from Kulia of Languages and Management in International Islamic University Malaysia. My passion is digital illustration, graphic design, video editing as well as learning new languages. I am capable in using Adobe Photoshop, Adobe Premiere Pro, Adobe After Effects, Adobe Illustrator and Canva. I am creative, ambitious, hardworking, optimist and also passionate.",
+    "transcript_confidence": 0.7533,
+    "audio_features": {
+      "mfcc_mean": [
+        -243.09678649902344,
+        106.82096099853516,
+        -3.135237455368042,
+        18.153661727905273,
+        -8.581632614135742,
+        2.963017702102661,
+        -1.826734185218811,
+        -0.3049541711807251,
+        -1.4700802564620972,
+        2.0118234157562256,
+        -2.992208480834961,
+        -0.9474363923072815,
+        0.5673598647117615
+      ],
+      "pitch_mean": 196.3299948623739,
+      "pitch_std": 102.48363209938103,
+      "speaking_rate": 0.8243014394580863,
+      "pause_ratio": 0.17569856054191368,
+      "snr_db": 13.478681592933423,
+      "transcript_sim": 0.2315906286239624,
+      "comm_clarity": 0.74,
+      "content_coverage": 0.0,
+      "pace_score": 0.6,
+      "fluency_score": 1.0,
+      "articulation_score": 0.5,
+      "filler_rate": 0.0,
+      "wpm": 96.0,
+      "word_timestamps": [
+        {
+          "word": " As",
+          "start": 0.0,
+          "end": 1.32
+        },
+        {
+          "word": " Salaam",
+          "start": 1.32,
+          "end": 1.68
+        },
+        {
+          "word": " wa",
+          "start": 1.68,
+          "end": 1.8
+        },
+        {
+          "word": " Alaykum",
+          "start": 1.8,
+          "end": 2.22
+        },
+        {
+          "word": " and",
+          "start": 2.22,
+          "end": 2.38
+        },
+        {
+          "word": " hello",
+          "start": 2.38,
+          "end": 3.02
+        },
+        {
+          "word": " everyone!",
+          "start": 3.02,
+          "end": 3.4
+        },
+        {
+          "word": " My",
+          "start": 4.06,
+          "end": 4.28
+        },
+        {
+          "word": " name",
+          "start": 4.28,
+          "end": 4.5
+        },
+        {
+          "word": " is",
+          "start": 4.5,
+          "end": 4.76
+        },
+        {
+          "word": " Nuro",
+          "start": 4.76,
+          "end": 5.04
+        },
+        {
+          "word": " Shakira",
+          "start": 5.04,
+          "end": 5.54
+        },
+        {
+          "word": " Minton",
+          "start": 5.54,
+          "end": 5.96
+        },
+        {
+          "word": " Arhan.",
+          "start": 5.96,
+          "end": 6.3
+        },
+        {
+          "word": " I",
+          "start": 6.9,
+          "end": 7.04
+        },
+        {
+          "word": " was",
+          "start": 7.04,
+          "end": 7.22
+        },
+        {
+          "word": " born",
+          "start": 7.22,
+          "end": 7.46
+        },
+        {
+          "word": " in",
+          "start": 7.46,
+          "end": 7.76
+        },
+        {
+          "word": " 28th",
+          "start": 7.76,
+          "end": 8.52
+        },
+        {
+          "word": " of",
+          "start": 8.52,
+          "end": 8.56
+        },
+        {
+          "word": " April",
+          "start": 8.56,
+          "end": 9.0
+        },
+        {
+          "word": " 1999.",
+          "start": 9.0,
+          "end": 10.1
+        },
+        {
+          "word": " Currently,",
+          "start": 10.62,
+          "end": 10.96
+        },
+        {
+          "word": " I",
+          "start": 11.36,
+          "end": 11.6
+        },
+        {
+          "word": " entered",
+          "start": 11.6,
+          "end": 11.84
+        },
+        {
+          "word": " 21",
+          "start": 11.84,
+          "end": 12.22
+        },
+        {
+          "word": " years",
+          "start": 12.22,
+          "end": 12.48
+        },
+        {
+          "word": " old",
+          "start": 12.48,
+          "end": 12.78
+        },
+        {
+          "word": " and",
+          "start": 12.78,
+          "end": 13.32
+        },
+        {
+          "word": " I",
+          "start": 13.32,
+          "end": 13.56
+        },
+        {
+          "word": " came",
+          "start": 13.56,
+          "end": 13.84
+        },
+        {
+          "word": " from",
+          "start": 13.84,
+          "end": 14.16
+        },
+        {
+          "word": " Johor.",
+          "start": 14.16,
+          "end": 14.78
+        },
+        {
+          "word": " I",
+          "start": 15.84,
+          "end": 16.22
+        },
+        {
+          "word": " am",
+          "start": 16.22,
+          "end": 16.46
+        },
+        {
+          "word": " an",
+          "start": 16.46,
+          "end": 16.72
+        },
+        {
+          "word": " undergraduate",
+          "start": 16.72,
+          "end": 17.2
+        },
+        {
+          "word": " student",
+          "start": 17.2,
+          "end": 18.04
+        },
+        {
+          "word": " majoring",
+          "start": 18.04,
+          "end": 18.98
+        },
+        {
+          "word": " in",
+          "start": 18.98,
+          "end": 19.24
+        },
+        {
+          "word": " Arabic",
+          "start": 19.24,
+          "end": 19.64
+        },
+        {
+          "word": " for",
+          "start": 19.64,
+          "end": 19.96
+        },
+        {
+          "word": " International",
+          "start": 19.96,
+          "end": 20.48
+        },
+        {
+          "word": " Communication",
+          "start": 20.48,
+          "end": 21.16
+        },
+        {
+          "word": " from",
+          "start": 21.16,
+          "end": 22.36
+        },
+        {
+          "word": " Kulia",
+          "start": 22.36,
+          "end": 22.76
+        },
+        {
+          "word": " of",
+          "start": 22.76,
+          "end": 23.08
+        },
+        {
+          "word": " Languages",
+          "start": 23.08,
+          "end": 23.42
+        },
+        {
+          "word": " and",
+          "start": 23.42,
+          "end": 23.84
+        },
+        {
+          "word": " Management",
+          "start": 23.84,
+          "end": 24.16
+        },
+        {
+          "word": " in",
+          "start": 24.16,
+          "end": 25.02
+        },
+        {
+          "word": " International",
+          "start": 25.02,
+          "end": 25.68
+        },
+        {
+          "word": " Islamic",
+          "start": 25.68,
+          "end": 26.54
+        },
+        {
+          "word": " University",
+          "start": 26.54,
+          "end": 26.84
+        },
+        {
+          "word": " Malaysia.",
+          "start": 26.84,
+          "end": 27.74
+        },
+        {
+          "word": " My",
+          "start": 27.74,
+          "end": 28.88
+        },
+        {
+          "word": " passion",
+          "start": 28.88,
+          "end": 29.32
+        },
+        {
+          "word": " is",
+          "start": 29.32,
+          "end": 29.68
+        },
+        {
+          "word": " digital",
+          "start": 29.68,
+          "end": 30.96
+        },
+        {
+          "word": " illustration,",
+          "start": 30.96,
+          "end": 31.54
+        },
+        {
+          "word": " graphic",
+          "start": 32.42,
+          "end": 32.8
+        },
+        {
+          "word": " design,",
+          "start": 32.8,
+          "end": 33.28
+        },
+        {
+          "word": " video",
+          "start": 33.54,
+          "end": 35.06
+        },
+        {
+          "word": " editing",
+          "start": 35.06,
+          "end": 35.48
+        },
+        {
+          "word": " as",
+          "start": 35.48,
+          "end": 36.34
+        },
+        {
+          "word": " well",
+          "start": 36.34,
+          "end": 36.58
+        },
+        {
+          "word": " as",
+          "start": 36.58,
+          "end": 36.94
+        },
+        {
+          "word": " learning",
+          "start": 36.94,
+          "end": 37.6
+        },
+        {
+          "word": " new",
+          "start": 37.6,
+          "end": 37.88
+        },
+        {
+          "word": " languages.",
+          "start": 37.88,
+          "end": 38.44
+        },
+        {
+          "word": " I",
+          "start": 42.5,
+          "end": 42.7
+        },
+        {
+          "word": " am",
+          "start": 42.7,
+          "end": 42.88
+        },
+        {
+          "word": " capable",
+          "start": 42.88,
+          "end": 43.24
+        },
+        {
+          "word": " in",
+          "start": 43.24,
+          "end": 43.68
+        },
+        {
+          "word": " using",
+          "start": 43.68,
+          "end": 44.08
+        },
+        {
+          "word": " Adobe",
+          "start": 44.08,
+          "end": 45.04
+        },
+        {
+          "word": " Photoshop,",
+          "start": 45.04,
+          "end": 45.7
+        },
+        {
+          "word": " Adobe",
+          "start": 46.58,
+          "end": 46.78
+        },
+        {
+          "word": " Premiere",
+          "start": 46.78,
+          "end": 47.24
+        },
+        {
+          "word": " Pro,",
+          "start": 47.24,
+          "end": 47.66
+        },
+        {
+          "word": " Adobe",
+          "start": 48.18,
+          "end": 48.56
+        },
+        {
+          "word": " After",
+          "start": 48.56,
+          "end": 49.1
+        },
+        {
+          "word": " Effects,",
+          "start": 49.1,
+          "end": 49.32
+        },
+        {
+          "word": " Adobe",
+          "start": 50.24,
+          "end": 50.46
+        },
+        {
+          "word": " Illustrator",
+          "start": 50.46,
+          "end": 51.16
+        },
+        {
+          "word": " and",
+          "start": 51.16,
+          "end": 51.94
+        },
+        {
+          "word": " Canva.",
+          "start": 51.94,
+          "end": 52.34
+        },
+        {
+          "word": " I",
+          "start": 52.34,
+          "end": 54.78
+        },
+        {
+          "word": " am",
+          "start": 54.78,
+          "end": 55.04
+        },
+        {
+          "word": " creative,",
+          "start": 55.04,
+          "end": 56.3
+        },
+        {
+          "word": " ambitious,",
+          "start": 56.88,
+          "end": 58.1
+        },
+        {
+          "word": " hardworking,",
+          "start": 59.34,
+          "end": 59.78
+        },
+        {
+          "word": " optimist",
+          "start": 60.64,
+          "end": 61.02
+        },
+        {
+          "word": " and",
+          "start": 61.02,
+          "end": 61.58
+        },
+        {
+          "word": " also",
+          "start": 61.58,
+          "end": 61.98
+        },
+        {
+          "word": " passionate.",
+          "start": 61.98,
+          "end": 62.84
+        }
+      ]
+    },
+    "video_score": 0.3377953143119812,
+    "skill_sources_from_video": {},
+    "transcript_skills": [
+      "communication",
+      "languages",
+      "illustration",
+      "graphic design",
+      "video editing",
+      "adobe photoshop",
+      "adobe premiere pro",
+      "adobe after effects",
+      "adobe illustrator",
+      "canva"
+    ],
+    "transcript_years_experience": 0.0,
+    "transcript_education_level": null
+  }
+]

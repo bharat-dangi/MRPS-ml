@@ -1,0 +1,41 @@
+{
+  "n_samples": 100,
+  "per_entity": {
+    "SKILL": {
+      "precision": 0.7942,
+      "recall": 1.0,
+      "f1": 0.8853,
+      "support": 386,
+      "tp": 386,
+      "fp": 100,
+      "fn": 0
+    },
+    "DEGREE": {
+      "precision": 0.98,
+      "recall": 0.98,
+      "f1": 0.98,
+      "support": 100,
+      "tp": 98,
+      "fp": 2,
+      "fn": 2
+    },
+    "JOB_TITLE": {
+      "precision": 1.0,
+      "recall": 0.09,
+      "f1": 0.1651,
+      "support": 100,
+      "tp": 9,
+      "fp": 0,
+      "fn": 91
+    },
+    "CERT": {
+      "precision": 1.0,
+      "recall": 0.7255,
+      "f1": 0.8409,
+      "support": 51,
+      "tp": 37,
+      "fp": 0,
+      "fn": 14
+    }
+  }
+}
